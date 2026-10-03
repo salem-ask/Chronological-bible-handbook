@@ -15,75 +15,63 @@ The page doesn't show a price, testimonials, ratings, countdowns or social proof
 ├── index.html          Sales page
 ├── thank-you.html      Post-purchase page (set as Chariow's redirect URL, optional)
 ├── styles.css          All styles (mobile-first)
-├── script.js           Sticky mobile CTA, WhatsApp share link, footer year
+├── script.js           Timeline viewer, sticky mobile CTA, WhatsApp share link, footer year
 ├── README.md           This file
 └── images/
-    ├── poster.jpg            ← add your poster here (recommended name)
-    ├── page-preview-1.jpg    ← add
-    ├── page-preview-2.jpg    ← add
-    ├── page-preview-3.jpg    ← add
-    └── page-preview-4.jpg    ← add
+    ├── poster.jpg / poster.webp                  Hero poster (book cover), 800 × 1191
+    ├── page-preview-1.jpg / .webp                Timeline page 1 (Creation → Judges)
+    ├── page-preview-2.jpg / .webp                Timeline page 2 (Kings → Exile)
+    ├── page-preview-3.jpg / .webp                Timeline page 3 (Restoration → Apostles)
+    └── page-preview-4.jpg / .webp                Timeline page 4 (Paul → Revelation)
 ```
 
-Until the real images are added, the page shows clearly labelled placeholders in A4 portrait proportions (210 × 297). These are not fake images. When an image file is missing, the page removes the broken image and leaves the placeholder visible.
+Each image comes in two versions. Browsers that support WebP load the lighter `.webp` file, and the others use the `.jpg` (`<picture>` element).
 
-Sales page sections, in order: Hero → The problem → The solution (+ CTA) → What's inside (+ CTA) → Who it's for → Preview → Offer recap (+ CTA) → FAQ → Final CTA (+ Share on WhatsApp) → Footer. On mobile there is also a sticky CTA bar.
+Sales page sections, in order: Hero → The problem → The solution (+ CTA) → What's inside (+ CTA) → Who it's for → Preview (the 4-page timeline) → Offer recap (+ CTA) → FAQ → Final CTA (+ Share on WhatsApp) → Footer. On mobile there is also a sticky CTA bar.
 
 ---
 
-## 2. Replacing the poster — `[POSTER_IMAGE]`
+## 2. The poster
 
-1. Export the poster as a **JPG or WebP**, portrait, about **800 × 1131 px** (A4 ratio). Compress it to **under ~150 KB** (for example with [squoosh.app](https://squoosh.app)).
-2. Save it as `images/poster.jpg`.
-3. In `index.html`, replace `[POSTER_IMAGE]` in **3 places**:
-   - **Hero image** (`<img src="[POSTER_IMAGE]" …>`): use the relative path `images/poster.jpg`.
-   - **`og:image`** and **`twitter:image`** meta tags: use the **full absolute URL**, for example `https://your-domain.com/images/poster.jpg`. WhatsApp and Facebook previews need an absolute URL.
+The poster is `images/poster.jpg` (with `images/poster.webp`). It was extracted from the supplied `Chronological.pdf`.
 
-If your poster has a different ratio, change `width`/`height` on the hero `<img>` and `aspect-ratio` on `.poster-frame` in `styles.css`.
+To replace it, overwrite both files with an image of the same proportions (800 × 1191). If the ratio changes, update `width`/`height` on the hero `<img>` in `index.html` and `aspect-ratio` on `.poster-frame` in `styles.css`.
 
-## 3. Replacing the four preview images
+The `og:image` and `twitter:image` tags use `[PAGE_URL]images/poster.jpg`. Once `[PAGE_URL]` is replaced (see §8), they become the absolute URL that WhatsApp and Facebook need.
 
-Save four sample pages in `images/` with **exactly these names**:
+## 3. The preview pages (4-page biblical timeline)
+
+The four preview images are the four pages of the biblical timeline. I rebuilt them from the supplied `ligne_du_temps.pdf`, which contained three overlapping screenshots: I removed the overlaps and the black separator bars, then cut the result back into the four original pages.
+
+The Preview section shows them in a viewer with two modes:
+
+- **Book view** (default): one page at a time on phones, and an open book (two-page spread) on screens 900 px and wider. Visitors turn pages with the Previous/Next buttons, by swiping left/right, or with the keyboard arrow keys.
+- **Scroll view**: the four pages are joined into one continuous timeline inside a scrollable frame.
+
+Tapping a page opens it full size, so visitors can zoom in to read the small text. Without JavaScript, the page falls back to scroll view.
+
+To replace a page, overwrite `images/page-preview-N.jpg` **and** `images/page-preview-N.webp` with the same filenames.
+
+## 4. Chariow CTA link
+
+All 6 purchase buttons point to:
 
 ```
-images/page-preview-1.jpg
-images/page-preview-2.jpg
-images/page-preview-3.jpg
-images/page-preview-4.jpg
+https://livresenligne.mychariow.shop/prd_2j3myxax/checkout
 ```
 
-You don't need to change any code. They load automatically and are lazy-loaded. Recommended: about 600 × 848 px (A4 portrait), compressed to **60–120 KB each**.
-
-If you want more specific alt text (for example "Page showing the 10 plagues table"), edit the `alt` attributes in the Preview section of `index.html`.
-
-*Optional, WebP:* to serve WebP with a JPG fallback, wrap each image in `<picture>` with a `<source type="image/webp" srcset="images/page-preview-1.webp">`. Only do this if you have created the `.webp` files.
-
-## 4. Inserting the Chariow CTA link — `[CTA_LINK]`
-
-Search and replace **`[CTA_LINK]`** in `index.html` with your exact Chariow product/checkout URL. Do not change the URL itself. There are **6** occurrences:
-
-| # | Location |
-|---|----------|
-| 1 | Hero button |
-| 2 | After "The solution" |
-| 3 | After "What's inside" |
-| 4 | Offer recap |
-| 5 | Final CTA ("Get the Chronological Bible Handbook") |
-| 6 | Mobile sticky CTA bar |
-
-All of them open in the same tab, and the JavaScript never rewrites them.
+The buttons are: Hero, after "The solution", after "What's inside", Offer recap, Final CTA, and the mobile sticky bar. They open in the same tab. To change the link, search and replace this URL in `index.html`.
 
 **Optional:** in your Chariow product settings, set the post-purchase redirect URL to `https://your-domain.com/thank-you.html`.
 
-## 5. Inserting the WhatsApp support number — `[WHATSAPP_SUPPORT_NUMBER]`
+## 5. WhatsApp support number
 
-Replace `[WHATSAPP_SUPPORT_NUMBER]` with your number in **international format, digits only**. Leave out the `+`, spaces and the leading 0. For example, Nigeria `2348012345678` or Kenya `254712345678`.
+The support number is **+243 823 226 790**. It is written as `243823226790` in the links (`https://wa.me/243823226790?...`):
 
-Occurrences:
-- `index.html`: FAQ answer "What if I have difficulty downloading my purchase?" and the footer "WhatsApp support" link (2)
-- `thank-you.html`: "WhatsApp Support" button (1)
+- `index.html`: the FAQ answer about download difficulties and the footer "WhatsApp support" link
+- `thank-you.html`: the "WhatsApp Support" button
 
-The number is never displayed as plain text. Visitors reach you through the button only.
+The number is never displayed as plain text. To change it, search and replace `243823226790` (international format, digits only, no `+`).
 
 ## 6. Meta Pixel
 
@@ -107,7 +95,7 @@ and paste the GA4 `gtag.js` snippet with your own `G-XXXXXXX` ID directly below 
 
 ## 8. Page URL — `[PAGE_URL]`
 
-Once you know your final domain, replace `[PAGE_URL]` in `index.html` (`<link rel="canonical">` and `og:url`) with the full URL of the sales page, for example `https://your-domain.com/`.
+Once you know your final domain, replace `[PAGE_URL]` in `index.html` with the full URL of the sales page, **ending with a `/`**, for example `https://your-domain.com/`. It appears in `<link rel="canonical">`, `og:url`, `og:image` and `twitter:image`.
 
 The **Share on WhatsApp** buttons don't depend on this. `script.js` inserts the real page address automatically, and on the thank-you page it shares the sales page instead. `[PAGE_URL]` also appears URL-encoded (`%5BPAGE_URL%5D`) in the share links' fallback `href`, which is only used if JavaScript is disabled. You can replace it there too.
 
@@ -130,14 +118,14 @@ The **Share on WhatsApp** buttons don't depend on this. `script.js` inserts the 
 2. **Settings → Pages → Build and deployment**: Source = *Deploy from a branch*, Branch = `main` (or your branch), folder `/ (root)`.
 3. Your site will be at `https://<username>.github.io/<repository>/`. All paths in this project are relative, so they work in a sub-folder.
 
-After deploying, replace `[PAGE_URL]` and the `og:image` / `twitter:image` values with the live URLs. Then test the link preview by pasting the URL into WhatsApp, or by using the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/).
+After deploying, replace `[PAGE_URL]` with the live URL. Then test the link preview by pasting the URL into WhatsApp, or by using the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/).
 
 ---
 
 ## 10. Performance notes
 
 - Excluding images, the page is about 50 KB of HTML, CSS and JS before compression. The only external request is the Google Font (two weights, `display=swap`). To remove it, delete the three font `<link>` tags; headings then fall back to Georgia/serif.
-- The hero poster loads first (`fetchpriority="high"`). All preview images are `loading="lazy"`.
+- The hero poster loads first (`fetchpriority="high"`, about 125 KB as WebP). The timeline pages (about 50–80 KB each as WebP) are `loading="lazy"`. In book view, the script loads the next pages just before they are needed.
 - Icons are inline SVG, so there are no icon fonts and no extra requests.
 - The FAQ uses native `<details>`, so it needs no JavaScript.
 
@@ -146,7 +134,7 @@ After deploying, replace `[PAGE_URL]` and the `og:image` / `twitter:image` value
 - [ ] Every "Get the Handbook" button opens the Chariow checkout in the same tab
 - [ ] WhatsApp support opens a chat with your number
 - [ ] Share on WhatsApp opens WhatsApp with the message and the live URL
-- [ ] Poster and four previews display correctly
+- [ ] Poster displays; the timeline viewer works in Book view and Scroll view
 - [ ] Test on a real Android phone (Chrome), at 360 px width, on mobile data
 - [ ] The sticky bar appears after the hero on mobile and is hidden on desktop
 
@@ -155,10 +143,7 @@ After deploying, replace `[PAGE_URL]` and the `og:image` / `twitter:image` value
 ## Remaining placeholders checklist
 
 ```
-[CTA_LINK]                  index.html (6×) — Chariow checkout URL
-[POSTER_IMAGE]              index.html (3×) — hero img, og:image, twitter:image
-[WHATSAPP_SUPPORT_NUMBER]   index.html (2×), thank-you.html (1×)
-[PAGE_URL]                  index.html — canonical, og:url (+ encoded in no-JS share fallback links in both files)
+[PAGE_URL]    index.html — canonical, og:url, og:image, twitter:image (+ URL-encoded in the no-JS share fallback links in both files)
 ```
 
-Also add the image files `images/page-preview-1.jpg` … `images/page-preview-4.jpg` and paste the Meta Pixel and GA4 code at their commented placeholders.
+Also paste the Meta Pixel and GA4 code at their commented placeholders.

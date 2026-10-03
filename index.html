@@ -6,6 +6,7 @@
   <title>Chronological Bible Handbook | Understand the Bible in Chronological Order</title>
   <meta name="description" content="An illustrated 106-page PDF guide that walks through the whole Bible in the chronological order of its events, with timelines, visual tables, book introductions and KJV verses. Instant download after purchase.">
   <meta name="theme-color" content="#4A1519">
+  <!-- Replace [PAGE_URL] with the full address of this page, ending with "/" (e.g. https://your-domain.com/) -->
   <link rel="canonical" href="[PAGE_URL]">
 
   <!-- Open Graph -->
@@ -14,7 +15,7 @@
   <meta property="og:title" content="Chronological Bible Handbook | Understand the Bible in Chronological Order">
   <meta property="og:description" content="See the whole Bible as one connected story. An illustrated 106-page PDF guide with timelines, visual tables and an introduction to every book of the Bible.">
   <meta property="og:url" content="[PAGE_URL]">
-  <meta property="og:image" content="[POSTER_IMAGE]">
+  <meta property="og:image" content="[PAGE_URL]images/poster.jpg">
   <meta property="og:image:alt" content="Cover of the Chronological Bible Handbook by Bookline">
   <meta property="og:locale" content="en_GB">
 
@@ -22,7 +23,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Chronological Bible Handbook | Understand the Bible in Chronological Order">
   <meta name="twitter:description" content="See the whole Bible as one connected story. An illustrated 106-page PDF guide with timelines and visual tables.">
-  <meta name="twitter:image" content="[POSTER_IMAGE]">
+  <meta name="twitter:image" content="[PAGE_URL]images/poster.jpg">
   <meta name="twitter:image:alt" content="Cover of the Chronological Bible Handbook by Bookline">
 
   <!-- Fonts: one serif family for headings only; body uses the system font stack -->
@@ -78,7 +79,7 @@
           <p class="hero-sub">Stop reading the Bible as disconnected pieces. This 106-page illustrated guide walks you through Scripture in chronological order, so you can understand how every book fits into God's plan.</p>
 
           <div class="hero-cta">
-            <a class="btn btn-gold btn-large" href="[CTA_LINK]">Get the Handbook Now</a>
+            <a class="btn btn-gold btn-large" href="https://livresenligne.mychariow.shop/prd_2j3myxax/checkout">Get the Handbook Now</a>
             <ul class="hero-facts" aria-label="Key facts">
               <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>106-page illustrated PDF</li>
               <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Instant download after purchase</li>
@@ -89,13 +90,11 @@
 
         <figure class="hero-poster">
           <div class="frame poster-frame">
-            <div class="img-placeholder" aria-hidden="true">
-              <span class="ph-label">Poster image</span>
-              <span class="ph-note">Replace [POSTER_IMAGE]</span>
-            </div>
-            <img src="[POSTER_IMAGE]" width="800" height="1131" fetchpriority="high" decoding="async"
-                 alt="Cover of the Chronological Bible Handbook, an illustrated PDF guide by Bookline"
-                 onerror="this.remove()">
+            <picture>
+              <source type="image/webp" srcset="images/poster.webp">
+              <img src="images/poster.jpg" width="800" height="1191" fetchpriority="high" decoding="async"
+                   alt="Cover of the Chronological Bible Handbook, an illustrated PDF guide by Bookline">
+            </picture>
           </div>
         </figure>
       </div>
@@ -152,7 +151,7 @@
         </ul>
 
         <div class="cta-block">
-          <a class="btn btn-burgundy btn-large" href="[CTA_LINK]">Get the Handbook Now</a>
+          <a class="btn btn-burgundy btn-large" href="https://livresenligne.mychariow.shop/prd_2j3myxax/checkout">Get the Handbook Now</a>
         </div>
       </div>
     </section>
@@ -195,7 +194,7 @@
         </ul>
 
         <div class="cta-block">
-          <a class="btn btn-gold btn-large" href="[CTA_LINK]">Get the Handbook Now</a>
+          <a class="btn btn-gold btn-large" href="https://livresenligne.mychariow.shop/prd_2j3myxax/checkout">Get the Handbook Now</a>
         </div>
       </div>
     </section>
@@ -224,35 +223,67 @@
       <div class="container">
         <div class="narrow center">
           <p class="eyebrow">Look inside</p>
-          <h2 id="preview-title">Preview some pages</h2>
-          <p>A few sample pages from the handbook.</p>
+          <h2 id="preview-title">The 4-page biblical timeline</h2>
+          <p>Here are the four timeline pages from the handbook, from Creation to the Book of Revelation. Turn the pages like a book, or scroll through the timeline in one continuous view.</p>
         </div>
-        <ul class="preview-grid">
-          <li>
-            <figure class="frame preview-frame">
-              <div class="img-placeholder" aria-hidden="true"><span class="ph-label">Sample page 1</span><span class="ph-note">images/page-preview-1.jpg</span></div>
-              <img src="images/page-preview-1.jpg" width="600" height="848" loading="lazy" decoding="async" alt="Sample page 1 from the Chronological Bible Handbook" onerror="this.remove()">
+
+        <!-- Without JavaScript the pages are shown in scroll view; script.js switches to book view. -->
+        <div class="tl-viewer is-scroll" id="tl-viewer">
+          <div class="tl-modes" role="group" aria-label="Choose how to view the timeline" hidden>
+            <button type="button" class="tl-mode" data-mode="book" aria-pressed="false">
+              <svg class="icon" aria-hidden="true"><use href="#i-book"/></svg>Book view
+            </button>
+            <button type="button" class="tl-mode" data-mode="scroll" aria-pressed="true">
+              <svg class="icon" aria-hidden="true"><use href="#i-scroll"/></svg>Scroll view
+            </button>
+          </div>
+
+          <div class="tl-stage" id="tl-stage" tabindex="0" aria-label="Biblical timeline pages">
+            <figure class="tl-page" data-page="1">
+              <a href="images/page-preview-1.jpg" target="_blank" rel="noopener">
+                <picture>
+                  <source type="image/webp" srcset="images/page-preview-1.webp">
+                  <img src="images/page-preview-1.jpg" width="720" height="1004" loading="lazy" decoding="async" alt="Biblical timeline, page 1 of 4: from the Creation, Adam and Eve and the Flood, through the patriarchs, Israel in Egypt and the Exodus, to the conquest of the Promised Land and the beginning of the period of the Judges.">
+                </picture>
+              </a>
+              <figcaption>Page 1 of 4 &middot; From Creation to the Judges</figcaption>
             </figure>
-          </li>
-          <li>
-            <figure class="frame preview-frame">
-              <div class="img-placeholder" aria-hidden="true"><span class="ph-label">Sample page 2</span><span class="ph-note">images/page-preview-2.jpg</span></div>
-              <img src="images/page-preview-2.jpg" width="600" height="848" loading="lazy" decoding="async" alt="Sample page 2 from the Chronological Bible Handbook" onerror="this.remove()">
+            <figure class="tl-page" data-page="2">
+              <a href="images/page-preview-2.jpg" target="_blank" rel="noopener">
+                <picture>
+                  <source type="image/webp" srcset="images/page-preview-2.webp">
+                  <img src="images/page-preview-2.jpg" width="720" height="1008" loading="lazy" decoding="async" alt="Biblical timeline, page 2 of 4: the United Kingdom under Saul, David and Solomon, the division into the Kingdom of the North (Israel) and the Kingdom of the South (Judah) with their kings and prophets, the fall of Samaria and Jerusalem, the exile to Babylon and the beginning of Persian rule.">
+                </picture>
+              </a>
+              <figcaption>Page 2 of 4 &middot; The kings, the divided kingdom and the exile</figcaption>
             </figure>
-          </li>
-          <li>
-            <figure class="frame preview-frame">
-              <div class="img-placeholder" aria-hidden="true"><span class="ph-label">Sample page 3</span><span class="ph-note">images/page-preview-3.jpg</span></div>
-              <img src="images/page-preview-3.jpg" width="600" height="848" loading="lazy" decoding="async" alt="Sample page 3 from the Chronological Bible Handbook" onerror="this.remove()">
+            <figure class="tl-page" data-page="3">
+              <a href="images/page-preview-3.jpg" target="_blank" rel="noopener">
+                <picture>
+                  <source type="image/webp" srcset="images/page-preview-3.webp">
+                  <img src="images/page-preview-3.jpg" width="720" height="1008" loading="lazy" decoding="async" alt="Biblical timeline, page 3 of 4: the restoration of the temple and the walls of Jerusalem, the end of the Old Testament period, the intertestamental period, the life of Jesus, the Day of Pentecost and the conversion of Paul.">
+                </picture>
+              </a>
+              <figcaption>Page 3 of 4 &middot; Restoration, the life of Jesus and the apostles</figcaption>
             </figure>
-          </li>
-          <li>
-            <figure class="frame preview-frame">
-              <div class="img-placeholder" aria-hidden="true"><span class="ph-label">Sample page 4</span><span class="ph-note">images/page-preview-4.jpg</span></div>
-              <img src="images/page-preview-4.jpg" width="600" height="848" loading="lazy" decoding="async" alt="Sample page 4 from the Chronological Bible Handbook" onerror="this.remove()">
+            <figure class="tl-page" data-page="4">
+              <a href="images/page-preview-4.jpg" target="_blank" rel="noopener">
+                <picture>
+                  <source type="image/webp" srcset="images/page-preview-4.webp">
+                  <img src="images/page-preview-4.jpg" width="720" height="883" loading="lazy" decoding="async" alt="Biblical timeline, page 4 of 4: Paul's three missionary journeys and imprisonments, the deaths of Peter and Paul, the destruction of Jerusalem and the temple in AD 70, the letters of John and the writing of Revelation, closing with Matthew 24:30 (KJV).">
+                </picture>
+              </a>
+              <figcaption>Page 4 of 4 &middot; Paul's journeys to the Book of Revelation</figcaption>
             </figure>
-          </li>
-        </ul>
+          </div>
+
+          <div class="tl-nav" hidden>
+            <button type="button" class="btn btn-burgundy tl-prev" aria-label="Previous page">&lsaquo;<span class="tl-btn-text"> Previous</span></button>
+            <p class="tl-status" aria-live="polite">Page 1 of 4</p>
+            <button type="button" class="btn btn-burgundy tl-next" aria-label="Next page"><span class="tl-btn-text">Next </span>&rsaquo;</button>
+          </div>
+          <p class="tl-hint">Tap a page to open it full size. The dates on the timeline are given as approximations.</p>
+        </div>
       </div>
     </section>
 
@@ -278,7 +309,7 @@
             <p><strong>Instant PDF download after purchase.</strong> Read it on your smartphone, tablet or computer.</p>
           </div>
 
-          <a class="btn btn-burgundy btn-large btn-block" href="[CTA_LINK]">Get the Handbook Now</a>
+          <a class="btn btn-burgundy btn-large btn-block" href="https://livresenligne.mychariow.shop/prd_2j3myxax/checkout">Get the Handbook Now</a>
         </div>
       </div>
     </section>
@@ -318,7 +349,7 @@
             <summary><h3>What if I have difficulty downloading my purchase?</h3></summary>
             <p><strong>We are here to help.</strong> If you experience any difficulty downloading the handbook after your purchase, contact us on WhatsApp and we will assist you in obtaining your purchased file.</p>
             <p>Tap the button below to send us a message:</p>
-            <a class="btn btn-support" href="https://wa.me/[WHATSAPP_SUPPORT_NUMBER]?text=Hello%20Bookline%2C%20I%20need%20help%20downloading%20my%20Chronological%20Bible%20Handbook." rel="noopener">
+            <a class="btn btn-support" href="https://wa.me/243823226790?text=Hello%20Bookline%2C%20I%20need%20help%20downloading%20my%20Chronological%20Bible%20Handbook." rel="noopener">
               <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>Contact WhatsApp Support
             </a>
           </details>
@@ -336,7 +367,7 @@
           <li>Understand how the books and events connect.</li>
           <li>Use the handbook as a visual companion for Bible study.</li>
         </ul>
-        <a class="btn btn-gold btn-large" href="[CTA_LINK]">Get the Chronological Bible Handbook</a>
+        <a class="btn btn-gold btn-large" href="https://livresenligne.mychariow.shop/prd_2j3myxax/checkout">Get the Chronological Bible Handbook</a>
         <p class="small-note">Illustrated PDF &middot; 106 pages &middot; Instant download after purchase</p>
 
         <div class="share-block">
@@ -355,7 +386,7 @@
       <p>Chronological Bible Handbook &mdash; an illustrated PDF guide. All Bible quotations are from the King James Version (KJV).</p>
       <p>Purchases and file delivery are handled by our checkout platform, Chariow.</p>
       <div class="footer-actions">
-        <a class="footer-link" href="https://wa.me/[WHATSAPP_SUPPORT_NUMBER]?text=Hello%20Bookline%2C%20I%20have%20a%20question%20about%20the%20Chronological%20Bible%20Handbook." rel="noopener">
+        <a class="footer-link" href="https://wa.me/243823226790?text=Hello%20Bookline%2C%20I%20have%20a%20question%20about%20the%20Chronological%20Bible%20Handbook." rel="noopener">
           <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp support
         </a>
         <a class="footer-link js-share" href="https://wa.me/?text=I%20found%20this%20Chronological%20Bible%20Handbook%20that%20helps%20you%20understand%20the%20Bible%20in%20chronological%20order.%20You%20can%20learn%20more%20here%3A%20%5BPAGE_URL%5D" target="_blank" rel="noopener">
@@ -368,7 +399,7 @@
 
   <!-- ============ MOBILE STICKY CTA ============ -->
   <div class="sticky-cta" id="sticky-cta" aria-hidden="true">
-    <a class="btn btn-gold btn-block" href="[CTA_LINK]" tabindex="-1">Get the Handbook Now</a>
+    <a class="btn btn-gold btn-block" href="https://livresenligne.mychariow.shop/prd_2j3myxax/checkout" tabindex="-1">Get the Handbook Now</a>
   </div>
 
   <script src="script.js" defer></script>

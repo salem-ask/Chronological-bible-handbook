@@ -31,6 +31,101 @@
   var years = document.querySelectorAll('.js-year');
   for (var y = 0; y < years.length; y++) years[y].textContent = new Date().getFullYear();
 
+  /* ---------- Timeline viewer: book view / scroll view ---------- */
+  (function timelineViewer() {
+    var viewer = document.getElementById('tl-viewer');
+    if (!viewer) return;
+    var pages = viewer.querySelectorAll('.tl-page');
+    var modes = viewer.querySelector('.tl-modes');
+    var modeButtons = viewer.querySelectorAll('.tl-mode');
+    var nav = viewer.querySelector('.tl-nav');
+    var prev = viewer.querySelector('.tl-prev');
+    var next = viewer.querySelector('.tl-next');
+    var status = viewer.querySelector('.tl-status');
+    var stage = viewer.querySelector('.tl-stage');
+    var wide = window.matchMedia('(min-width: 900px)');
+    var total = pages.length;
+    var index = 0; // first page shown (0-based)
+    var mode = 'book';
+
+    function step() { return wide.matches ? 2 : 1; }
+
+    function render() {
+      var s = step();
+      index = Math.floor(index / s) * s; // spreads always start on an odd page (1–2, 3–4)
+      viewer.classList.toggle('is-spread', s === 2);
+      for (var i = 0; i < total; i++) {
+        var on = i >= index && i < index + s;
+        pages[i].classList.toggle('is-current', on);
+        pages[i].classList.toggle('is-left', on && s === 2 && i === index);
+        pages[i].classList.toggle('is-right', on && s === 2 && i === index + 1);
+        // Load the visible pages and the next ones early so page turns feel instant.
+        if (i < index + s * 2) {
+          var img = pages[i].querySelector('img');
+          if (img) img.loading = 'eager';
+        }
+      }
+      var last = Math.min(index + s, total);
+      status.textContent = s === 2 && last > index + 1
+        ? 'Pages ' + (index + 1) + '–' + last + ' of ' + total
+        : 'Page ' + (index + 1) + ' of ' + total;
+      prev.disabled = index === 0;
+      next.disabled = index + s >= total;
+    }
+
+    function go(dir) {
+      var target = index + dir * step();
+      if (target < 0 || target >= total) return;
+      index = target;
+      viewer.classList.toggle('go-back', dir < 0);
+      render();
+    }
+
+    function setMode(m) {
+      mode = m;
+      viewer.classList.toggle('is-book', m === 'book');
+      viewer.classList.toggle('is-scroll', m === 'scroll');
+      nav.hidden = m !== 'book';
+      for (var i = 0; i < modeButtons.length; i++) {
+        modeButtons[i].setAttribute('aria-pressed', modeButtons[i].getAttribute('data-mode') === m ? 'true' : 'false');
+      }
+      if (m === 'book') render();
+      else for (var j = 0; j < total; j++) pages[j].classList.remove('is-current', 'is-left', 'is-right');
+    }
+
+    for (var b = 0; b < modeButtons.length; b++) {
+      modeButtons[b].addEventListener('click', function () { setMode(this.getAttribute('data-mode')); });
+    }
+    prev.addEventListener('click', function () { go(-1); });
+    next.addEventListener('click', function () { go(1); });
+
+    stage.addEventListener('keydown', function (e) {
+      if (mode !== 'book') return;
+      if (e.key === 'ArrowRight') { go(1); e.preventDefault(); }
+      if (e.key === 'ArrowLeft') { go(-1); e.preventDefault(); }
+    });
+
+    // Swipe left/right to turn pages; a swipe must not open the full-size image.
+    var startX = 0, startY = 0, swiped = false;
+    stage.addEventListener('touchstart', function (e) {
+      startX = e.touches[0].clientX; startY = e.touches[0].clientY; swiped = false;
+    }, { passive: true });
+    stage.addEventListener('touchend', function (e) {
+      if (mode !== 'book') return;
+      var dx = e.changedTouches[0].clientX - startX;
+      var dy = e.changedTouches[0].clientY - startY;
+      if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) { swiped = true; go(dx < 0 ? 1 : -1); }
+    });
+    stage.addEventListener('click', function (e) {
+      if (swiped) { e.preventDefault(); swiped = false; }
+    }, true);
+
+    if (wide.addEventListener) wide.addEventListener('change', function () { if (mode === 'book') render(); });
+
+    modes.hidden = false;
+    setMode('book');
+  })();
+
   /* ---------- Sticky mobile CTA ---------- */
   var sticky = document.getElementById('sticky-cta');
   var hero = document.getElementById('hero');
