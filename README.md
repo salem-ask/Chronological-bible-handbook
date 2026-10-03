@@ -73,6 +73,10 @@ The support number is **+243 823 226 790**. It is written as `243823226790` in t
 
 The number is never displayed as plain text. To change it, search and replace `243823226790` (international format, digits only, no `+`).
 
+## 5b. Bookline website link
+
+The "Bookline" name in the header and footer, and the copyright line, link to **https://bookline.digital/**. These links open in a new tab, so visitors keep the sales page open. To change the address, search and replace `https://bookline.digital/` in both HTML files.
+
 ## 6. Meta Pixel
 
 In both `index.html` and `thank-you.html`, find:

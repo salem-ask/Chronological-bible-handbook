@@ -813,3 +813,6 @@ a:hover { color: var(--burgundy-soft); }
 .thanks-card .note-box { text-align: left; margin-bottom: 20px; }
 .mini-timeline li { display: flex; align-items: center; min-height: 56px; }
 .is-book .tl-page figcaption { min-height: 2.8em; }
+.brand-footer .brand { display: inline-flex; align-items: center; min-height: 48px; }
+.footer-site { color: var(--gold); font-weight: 600; }
+.footer-site:hover { color: var(--gold-light); }
