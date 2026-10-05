@@ -130,16 +130,17 @@ node bonuses/build-pdf.js bonuses/archaeology/archaeology.html bonuses/covers/Bo
 
 ## 5d. 48-hour offer timer
 
-The countdown covers the whole offer (the handbook plus the 3 free bonuses). It appears in two places:
+The countdown covers the whole offer (the handbook plus the 3 free bonuses). It appears in six places:
 
 - **Top of the page:** a gold bar above the header ("Offer: Handbook + 3 free bonuses · ends in …").
-- **Bottom of the page:** an "This offer ends in" block after the final CTA, with its own purchase button.
+- **In four sections:** under the hero button, under the Free Bonuses title, under the Offer Recap title, and above the final CTA button ("Handbook + 3 free bonuses · offer ends in …").
+- **Bottom of the page:** a "This offer ends in" block after the final CTA, with its own purchase button.
 
 It counts down to the end of the current 48-hour period and then starts again automatically. All visitors see the same time. The mobile sticky bar hides while the bottom block is on screen.
 
 Settings are at the top of the `offerTimer` block in `script.js`:
 
-- `ENABLED = false` hides both timers.
+- `ENABLED = false` hides all the timers.
 - `PERIOD_HOURS` changes the length of the period.
 - `ANCHOR` sets the start date of the first period (UTC).
 
