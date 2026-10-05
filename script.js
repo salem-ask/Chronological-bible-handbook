@@ -163,9 +163,10 @@
   var finalCta = document.getElementById('final-cta');
   var heroVisible = true;
   var finalVisible = false;
+  var endVisible = false;
 
   function update() {
-    var show = !heroVisible && !finalVisible;
+    var show = !heroVisible && !finalVisible && !endVisible;
     sticky.classList.toggle('is-visible', show);
     sticky.setAttribute('aria-hidden', show ? 'false' : 'true');
     if (stickyLink) stickyLink.tabIndex = show ? 0 : -1;
@@ -178,6 +179,15 @@
       heroVisible = entries[0].isIntersecting;
       update();
     }).observe(hero);
+
+    var offerEnd = document.getElementById('offer-end');
+    if (offerEnd) {
+      // Also hide the bar over the bottom offer block, which has its own button.
+      new IntersectionObserver(function (entries) {
+        endVisible = entries[0].isIntersecting;
+        update();
+      }).observe(offerEnd);
+    }
 
     if (finalCta) {
       // Hide the bar while the final CTA section is on screen (avoids two identical buttons).

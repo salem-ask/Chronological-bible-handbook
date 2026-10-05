@@ -54,13 +54,13 @@ To replace a page, overwrite `images/page-preview-N.jpg` **and** `images/page-pr
 
 ## 4. Chariow CTA link
 
-All 7 purchase buttons point to:
+All 8 purchase buttons point to:
 
 ```
 https://livresenligne.mychariow.shop/prd_2j3myxax/checkout
 ```
 
-The buttons are: Hero, after "The solution", after "What's inside", after the Free Bonuses, Offer recap, Final CTA, and the mobile sticky bar. They open in the same tab. To change the link, search and replace this URL in `index.html`.
+The buttons are: Hero, after "The solution", after "What's inside", after the Free Bonuses, Offer recap, Final CTA, the bottom offer block, and the mobile sticky bar. They open in the same tab. To change the link, search and replace this URL in `index.html`.
 
 **Optional:** in your Chariow product settings, set the post-purchase redirect URL to `https://your-domain.com/thank-you.html`.
 
@@ -130,11 +130,16 @@ node bonuses/build-pdf.js bonuses/archaeology/archaeology.html bonuses/covers/Bo
 
 ## 5d. 48-hour offer timer
 
-A countdown ("Free bonuses offer ends in 47h 59m 59s") appears in four places: under the hero button, in the Free Bonuses section, in the Offer Recap and above the final button. It counts down to the end of the current 48-hour period and then starts again automatically. All visitors see the same time.
+The countdown covers the whole offer (the handbook plus the 3 free bonuses). It appears in two places:
+
+- **Top of the page:** a gold bar above the header ("Offer: Handbook + 3 free bonuses · ends in …").
+- **Bottom of the page:** an "This offer ends in" block after the final CTA, with its own purchase button.
+
+It counts down to the end of the current 48-hour period and then starts again automatically. All visitors see the same time. The mobile sticky bar hides while the bottom block is on screen.
 
 Settings are at the top of the `offerTimer` block in `script.js`:
 
-- `ENABLED = false` hides every timer.
+- `ENABLED = false` hides both timers.
 - `PERIOD_HOURS` changes the length of the period.
 - `ANCHOR` sets the start date of the first period (UTC).
 
