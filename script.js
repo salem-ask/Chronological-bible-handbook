@@ -126,6 +126,34 @@
     setMode('book');
   })();
 
+  /* ---------- 48-hour offer timer ----------
+     Counts down to the end of the current 48-hour period, then starts again.
+     All visitors see the same time. Set ENABLED to false to hide every timer. */
+  (function offerTimer() {
+    var ENABLED = true;
+    var PERIOD_HOURS = 48;
+    var ANCHOR = Date.UTC(2026, 0, 1, 0, 0, 0); // start of the first period (UTC)
+
+    var timers = document.querySelectorAll('[data-countdown]');
+    if (!ENABLED || !timers.length) return;
+    var period = PERIOD_HOURS * 3600 * 1000;
+
+    function pad(n) { return (n < 10 ? '0' : '') + n; }
+    function tick() {
+      var left = period - ((Date.now() - ANCHOR) % period);
+      var sec = Math.floor(left / 1000);
+      var h = pad(Math.floor(sec / 3600)), m = pad(Math.floor(sec % 3600 / 60)), s = pad(sec % 60);
+      for (var i = 0; i < timers.length; i++) {
+        timers[i].querySelector('[data-h]').textContent = h;
+        timers[i].querySelector('[data-m]').textContent = m;
+        timers[i].querySelector('[data-s]').textContent = s;
+      }
+    }
+    for (var i = 0; i < timers.length; i++) timers[i].hidden = false;
+    tick();
+    setInterval(tick, 1000);
+  })();
+
   /* ---------- Sticky mobile CTA ---------- */
   var sticky = document.getElementById('sticky-cta');
   var hero = document.getElementById('hero');

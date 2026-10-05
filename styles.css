@@ -880,3 +880,37 @@ a:hover { color: var(--burgundy-soft); }
   .bonus { grid-template-columns: 1fr; padding: 22px; }
   .bonus-cover { max-width: 200px; margin: 0 auto 4px; }
 }
+
+/* ---------- 48-hour offer timer (configured in script.js) ---------- */
+.offer-timer {
+  margin: 14px auto 18px;
+  max-width: 360px;
+  padding: 10px 14px;
+  border: 1px solid var(--gold);
+  border-radius: var(--radius);
+  background: var(--white);
+  text-align: center;
+}
+.offer-timer[hidden] { display: none; }
+.offer-timer-label {
+  margin: 0 0 2px;
+  font-size: .8125rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--burgundy);
+}
+.offer-timer-clock {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--burgundy);
+  font-variant-numeric: tabular-nums;
+}
+.offer-timer-clock small { font-family: var(--sans); font-size: .8rem; font-weight: 600; margin: 0 2px 0 1px; }
+.offer-timer-dark { background: rgba(255, 255, 255, .06); }
+.offer-timer-dark .offer-timer-label,
+.offer-timer-dark .offer-timer-clock { color: var(--gold); }
+.hero .offer-timer { margin: 16px 0 0; }

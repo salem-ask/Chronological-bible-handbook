@@ -4,7 +4,7 @@ A lightweight, mobile-first sales funnel for the **Chronological Bible Handbook*
 
 It is plain HTML, CSS and vanilla JavaScript. There is no framework, no build step and no dependencies apart from one optional Google Font (Cormorant Garamond, headings only).
 
-The page doesn't show a price, testimonials, ratings, countdowns or social proof. All purchase buttons send the visitor straight to the Chariow checkout. This website never handles payment and never delivers the PDF itself.
+The page doesn't show a price, testimonials, ratings or social proof. It does show a 48-hour offer countdown that restarts automatically (see "48-hour offer timer" below). All purchase buttons send the visitor straight to the Chariow checkout. This website never handles payment and never delivers the PDF itself.
 
 ---
 
@@ -127,6 +127,18 @@ node bonuses/build-pdf.js bonuses/archaeology/archaeology.html bonuses/covers/Bo
 
 - **Archaeology cover:** the supplied cover read "12 Discoveries That *Confirm* the Biblical Story". To match the title and the rule that archaeology does not prove the Bible, `Bonus_Archaeology_Cover.jpg` is a copy with the subtitle changed to "*Illuminate*". The original is kept as `Bonus_Archaeology_Cover_original.jpg`.
 - **Timeline poster cover:** no cover was supplied, so `Bonus_Timeline_Poster_Cover.png` was made in the same style (source: `covers/timeline-poster-cover.html`). Replace `images/bonus-timeline-poster.jpg` and `.webp` if you have an official cover.
+
+## 5d. 48-hour offer timer
+
+A countdown ("Free bonuses offer ends in 47h 59m 59s") appears in four places: under the hero button, in the Free Bonuses section, in the Offer Recap and above the final button. It counts down to the end of the current 48-hour period and then starts again automatically. All visitors see the same time.
+
+Settings are at the top of the `offerTimer` block in `script.js`:
+
+- `ENABLED = false` hides every timer.
+- `PERIOD_HOURS` changes the length of the period.
+- `ANCHOR` sets the start date of the first period (UTC).
+
+Without JavaScript, the timers stay hidden.
 
 ## 6. Meta Pixel
 
