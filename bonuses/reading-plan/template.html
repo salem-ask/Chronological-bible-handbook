@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Chronological Bible Reading Plan — 365 Days</title>
+<link rel="stylesheet" href="../print.css">
+<style>
+  .intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14pt 20pt; }
+  .step { display: flex; gap: 9pt; align-items: flex-start; }
+  .step b {
+    flex: 0 0 18pt; height: 18pt; border-radius: 50%;
+    background: var(--burgundy); color: #F3EBDA;
+    font: 600 9pt/18pt "Poppins", sans-serif; text-align: center;
+  }
+  .periods { columns: 2; column-gap: 20pt; padding: 0; margin: 6pt 0 0; list-style: none; }
+  .periods li { break-inside: avoid; padding: 3pt 0; border-bottom: .5pt solid var(--line); }
+  .periods strong { display: inline-block; min-width: 72pt; color: var(--burgundy); font-weight: 600; }
+  .books { columns: 3; column-gap: 18pt; padding: 0; margin: 6pt 0 0; list-style: none; font-size: 8.8pt; }
+  .books li { display: flex; align-items: baseline; gap: 4pt; padding: 1.6pt 0; break-inside: avoid; }
+  .books .dots { flex: 1; border-bottom: .6pt dotted #B9A57A; transform: translateY(-2pt); }
+
+  table.plan { width: 100%; border-collapse: collapse; }
+  table.plan thead th {
+    font: 600 7.5pt "Poppins", sans-serif; letter-spacing: .12em; text-transform: uppercase;
+    color: #F3EBDA; background: var(--burgundy); padding: 5pt 6pt; text-align: left;
+  }
+  table.plan td { padding: 4.2pt 6pt; border-bottom: .5pt solid var(--line); vertical-align: middle; }
+  table.plan tr { break-inside: avoid; }
+  tr.period th {
+    font: 600 11pt "Lora", serif; color: var(--burgundy); text-align: left;
+    padding: 11pt 6pt 4pt; border-bottom: 1pt solid var(--gold);
+  }
+  td.chk { width: 22pt; }
+  .box { display: block; width: 10pt; height: 10pt; border: .9pt solid var(--burgundy); border-radius: 1.5pt; }
+  td.day { width: 34pt; font-weight: 600; color: var(--gold-dark); }
+  td.ref { font-size: 10pt; }
+  td.hbcol { width: 112pt; font-size: 8pt; color: var(--ink-soft); }
+  .hb { display: block; white-space: nowrap; }
+  .notes-lines { margin-top: 10pt; }
+  .notes-lines div { height: 22pt; border-bottom: .6pt solid var(--line); }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <p class="kicker">A companion to the Chronological Bible Handbook</p>
+  <h1>The Chronological Bible Reading Plan</h1>
+  <p class="lead">Read the whole Bible in 365 days, in the order the events happened.</p>
+  <div class="rule"><span></span></div>
+
+  <p>The reading plan helps you put the chronological approach into practice throughout the year. Instead of reading the books of the Bible one after another in their usual order, you follow the story as it unfolded: from Creation, through the patriarchs, the Exodus, the kings and the prophets, the exile and the return, to the life of Jesus, the early Church and the Book of Revelation.</p>
+
+  <h2>How to use this plan</h2>
+  <div class="intro-grid">
+    <div class="step"><b>1</b><p><strong>One reading each day.</strong> There are 365 daily readings covering every chapter of the Bible once. You can start on any date.</p></div>
+    <div class="step"><b>2</b><p><strong>About 15 minutes a day.</strong> The readings were divided by the length of the King James Version text, so each day has a similar amount to read (about 2,200 words on average).</p></div>
+    <div class="step"><b>3</b><p><strong>Tick the box</strong> when you finish a reading. If you miss a day, simply continue from the next unticked reading.</p></div>
+    <div class="step"><b>4</b><p><strong>Use the Handbook alongside.</strong> When a book appears for the first time, the plan points you to its presentation in the Chronological Bible Handbook.</p></div>
+  </div>
+
+  <div class="box-note">
+    <p><strong>Handbook pages.</strong> Each book's page number in the Handbook is listed in the Handbook's chronological summary tables. Write it once in the book list on the next page, and next to the book on the day it first appears in the plan (<span class="blank">___</span>).</p>
+  </div>
+
+  <h2>How the readings are arranged</h2>
+  <ul class="clean">
+    <li>The historical books form the backbone of the plan. Parallel accounts, such as Samuel and Kings with Chronicles, are read side by side.</li>
+    <li>The prophets are read with the reigns and events named at the start of their books, following the approximate dates on the Handbook's biblical timeline.</li>
+    <li>Psalms whose titles mention an event in David's life are read with that event. Psalms that speak of the destruction of Jerusalem or the return from exile are read in those periods. The other psalms are read in their Bible order during the time of David and Solomon.</li>
+    <li>The four Gospels are read side by side, period by period. Paul's letters are read at the points in Acts where they were most probably written.</li>
+  </ul>
+  <p style="font-size:8.5pt;color:var(--ink-soft)">The dates of some books and passages are uncertain, and Bible scholars place some of them differently (for example Job, several psalms, James, Galatians and Hebrews). This plan follows one reasonable arrangement; it is a reading aid, not a final ruling on dates. Bible references follow the King James Version (KJV).</p>
+</section>
+
+<section class="page">
+  <p class="kicker">Overview</p>
+  <h2>The periods of the plan</h2>
+  <ul class="periods">
+{{PERIODS}}
+  </ul>
+
+  <h2 style="margin-top:16pt">Books of the Bible and Handbook pages</h2>
+  <p style="font-size:8.5pt;color:var(--ink-soft)">Fill in the page where each book is presented in the Chronological Bible Handbook.</p>
+  <ul class="books">
+{{BOOKS}}
+  </ul>
+</section>
+
+<section class="page">
+  <table class="plan">
+    <thead>
+      <tr><th scope="col">Done</th><th scope="col">Day</th><th scope="col">Reading (KJV)</th><th scope="col">Handbook</th></tr>
+    </thead>
+    <tbody>
+{{ROWS}}
+    </tbody>
+  </table>
+</section>
+
+<section class="page">
+  <p class="kicker">Notes</p>
+  <h2>My notes and reflections</h2>
+  <div class="notes-lines">
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+  </div>
+</section>
+
+</body>
+</html>

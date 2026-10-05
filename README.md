@@ -54,13 +54,13 @@ To replace a page, overwrite `images/page-preview-N.jpg` **and** `images/page-pr
 
 ## 4. Chariow CTA link
 
-All 6 purchase buttons point to:
+All 7 purchase buttons point to:
 
 ```
 https://livresenligne.mychariow.shop/prd_2j3myxax/checkout
 ```
 
-The buttons are: Hero, after "The solution", after "What's inside", Offer recap, Final CTA, and the mobile sticky bar. They open in the same tab. To change the link, search and replace this URL in `index.html`.
+The buttons are: Hero, after "The solution", after "What's inside", after the Free Bonuses, Offer recap, Final CTA, and the mobile sticky bar. They open in the same tab. To change the link, search and replace this URL in `index.html`.
 
 **Optional:** in your Chariow product settings, set the post-purchase redirect URL to `https://your-domain.com/thank-you.html`.
 
@@ -76,6 +76,57 @@ The number is never displayed as plain text. To change it, search and replace `2
 ## 5b. Bookline website link
 
 The "Bookline" name in the header and footer, and the copyright line, link to **https://bookline.digital/**. These links open in a new tab, so visitors keep the sales page open. To change the address, search and replace `https://bookline.digital/` in both HTML files.
+
+## 5c. Free bonuses
+
+The sales page presents three bonuses, all **included FREE with the purchase**, with no monetary value shown: the "Free Bonuses" section right after "What's inside", plus the Offer Recap and an FAQ entry.
+
+| Bonus | Sales-page cover | Delivered file |
+|---|---|---|
+| 1. The Chronological Bible Reading Plan (365 Days) | `images/bonus-reading-plan.*` | `bonuses/Chronological-Bible-Reading-Plan-365-Days.pdf` |
+| 2. Biblical Timeline Poster | `images/bonus-timeline-poster.*` | **not produced here; upload your poster file to Chariow** |
+| 3. Archaeology and the Bible: 12 Discoveries That Illuminate the Biblical Story | `images/bonus-archaeology.*` | `bonuses/Archaeology-and-the-Bible-12-Discoveries.pdf` |
+
+**Upload the bonus PDFs to your Chariow product** so that buyers receive them with the handbook. This website never delivers files.
+
+### The `bonuses/` folder (production files, never published)
+
+```
+bonuses/
+├── Chronological-Bible-Reading-Plan-365-Days.pdf   ← upload to Chariow
+├── Archaeology-and-the-Bible-12-Discoveries.pdf    ← upload to Chariow
+├── covers/          supplied covers + corrected archaeology cover + timeline-poster cover
+├── reading-plan/    chronological_order.py, build_plan.py, handbook-pages.json, template.html
+├── archaeology/     discoveries.py (all texts), build_archaeology.py, template.html
+├── fonts/           Lora and Poppins (SIL Open Font License)
+├── print.css        shared print styles
+└── build-pdf.js     HTML → A4 PDF (Playwright + pdfunite)
+```
+
+The folder is excluded from deployment: `_config.yml` covers GitHub Pages, `netlify.toml` returns a 404 for `/bonuses/*` on Netlify, and `.vercelignore` covers Vercel. Do not remove these files.
+
+### Handbook page numbers in the reading plan
+
+I didn't invent any Handbook page numbers. `bonuses/reading-plan/handbook-pages.json` lists the 66 books with `null` pages, and the PDF shows a blank (`p. ___`) wherever a page is missing. To print the real pages, fill in the numbers from the Handbook's summary tables and rebuild:
+
+```bash
+python3 bonuses/reading-plan/build_plan.py
+node bonuses/build-pdf.js bonuses/reading-plan/reading-plan.html bonuses/covers/Bonus_Reading_Plan_Cover.jpg bonuses/Chronological-Bible-Reading-Plan-365-Days.pdf "The Chronological Bible Reading Plan"
+```
+
+The readings are balanced using the KJV word count of each chapter (`kjv-chapter-words.json`). The 1,189 chapters are each read once. The average day is about 2,170 words, roughly 15 minutes at a comfortable pace.
+
+### Rebuilding the archaeology guide
+
+```bash
+python3 bonuses/archaeology/build_archaeology.py
+node bonuses/build-pdf.js bonuses/archaeology/archaeology.html bonuses/covers/Bonus_Archaeology_Cover.jpg bonuses/Archaeology-and-the-Bible-12-Discoveries.pdf "Archaeology and the Bible"
+```
+
+### About the covers
+
+- **Archaeology cover:** the supplied cover read "12 Discoveries That *Confirm* the Biblical Story". To match the title and the rule that archaeology does not prove the Bible, `Bonus_Archaeology_Cover.jpg` is a copy with the subtitle changed to "*Illuminate*". The original is kept as `Bonus_Archaeology_Cover_original.jpg`.
+- **Timeline poster cover:** no cover was supplied, so `Bonus_Timeline_Poster_Cover.png` was made in the same style (source: `covers/timeline-poster-cover.html`). Replace `images/bonus-timeline-poster.jpg` and `.webp` if you have an official cover.
 
 ## 6. Meta Pixel
 

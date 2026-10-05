@@ -1,0 +1,4 @@
+# GitHub Pages: do not publish the paid bonus files or the README
+exclude:
+  - bonuses
+  - README.md

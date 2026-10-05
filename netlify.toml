@@ -1,0 +1,10 @@
+# Netlify: no build step; publish the repository root.
+[build]
+  publish = "."
+
+# The bonus files are delivered by Chariow after purchase. Never serve them publicly.
+[[redirects]]
+  from = "/bonuses/*"
+  to = "/404.html"
+  status = 404
+  force = true

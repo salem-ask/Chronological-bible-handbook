@@ -1,0 +1,2878 @@
+[
+ {
+  "day": 1,
+  "period": "Creation and the early world",
+  "reading": "Genesis 1–3",
+  "words": 2124,
+  "handbook": [
+   {
+    "book": "Genesis",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 2,
+  "period": "Creation and the early world",
+  "reading": "Genesis 4–7",
+  "words": 2301,
+  "handbook": []
+ },
+ {
+  "day": 3,
+  "period": "Creation and the early world",
+  "reading": "Genesis 8–11",
+  "words": 2345,
+  "handbook": []
+ },
+ {
+  "day": 4,
+  "period": "The time of the patriarchs",
+  "reading": "Job 1–5",
+  "words": 2244,
+  "handbook": [
+   {
+    "book": "Job",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 5,
+  "period": "The time of the patriarchs",
+  "reading": "Job 6–10",
+  "words": 2162,
+  "handbook": []
+ },
+ {
+  "day": 6,
+  "period": "The time of the patriarchs",
+  "reading": "Job 11–15",
+  "words": 2108,
+  "handbook": []
+ },
+ {
+  "day": 7,
+  "period": "The time of the patriarchs",
+  "reading": "Job 16–20",
+  "words": 1975,
+  "handbook": []
+ },
+ {
+  "day": 8,
+  "period": "The time of the patriarchs",
+  "reading": "Job 21–25",
+  "words": 1855,
+  "handbook": []
+ },
+ {
+  "day": 9,
+  "period": "The time of the patriarchs",
+  "reading": "Job 26–30",
+  "words": 1952,
+  "handbook": []
+ },
+ {
+  "day": 10,
+  "period": "The time of the patriarchs",
+  "reading": "Job 31–34",
+  "words": 2206,
+  "handbook": []
+ },
+ {
+  "day": 11,
+  "period": "The time of the patriarchs",
+  "reading": "Job 35–39",
+  "words": 2287,
+  "handbook": []
+ },
+ {
+  "day": 12,
+  "period": "The time of the patriarchs",
+  "reading": "Job 40–42; Genesis 12–13",
+  "words": 2307,
+  "handbook": []
+ },
+ {
+  "day": 13,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 14–17",
+  "words": 2173,
+  "handbook": []
+ },
+ {
+  "day": 14,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 18–19",
+  "words": 1976,
+  "handbook": []
+ },
+ {
+  "day": 15,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 20–23",
+  "words": 2448,
+  "handbook": []
+ },
+ {
+  "day": 16,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 24–25",
+  "words": 2525,
+  "handbook": []
+ },
+ {
+  "day": 17,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 26–27",
+  "words": 2153,
+  "handbook": []
+ },
+ {
+  "day": 18,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 28–30",
+  "words": 2479,
+  "handbook": []
+ },
+ {
+  "day": 19,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 31–32",
+  "words": 2214,
+  "handbook": []
+ },
+ {
+  "day": 20,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 33–35",
+  "words": 1978,
+  "handbook": []
+ },
+ {
+  "day": 21,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 36–37",
+  "words": 1789,
+  "handbook": []
+ },
+ {
+  "day": 22,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 38–40",
+  "words": 2065,
+  "handbook": []
+ },
+ {
+  "day": 23,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 41–42",
+  "words": 2384,
+  "handbook": []
+ },
+ {
+  "day": 24,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 43–45",
+  "words": 2543,
+  "handbook": []
+ },
+ {
+  "day": 25,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 46–48",
+  "words": 2375,
+  "handbook": []
+ },
+ {
+  "day": 26,
+  "period": "The time of the patriarchs",
+  "reading": "Genesis 49–50; Exodus 1–2",
+  "words": 2568,
+  "handbook": [
+   {
+    "book": "Exodus",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 27,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 3–5",
+  "words": 2276,
+  "handbook": []
+ },
+ {
+  "day": 28,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 6–8",
+  "words": 2383,
+  "handbook": []
+ },
+ {
+  "day": 29,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 9–10",
+  "words": 1881,
+  "handbook": []
+ },
+ {
+  "day": 30,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 11–12",
+  "words": 1817,
+  "handbook": []
+ },
+ {
+  "day": 31,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 13–15",
+  "words": 2323,
+  "handbook": []
+ },
+ {
+  "day": 32,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 16–18",
+  "words": 2303,
+  "handbook": []
+ },
+ {
+  "day": 33,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 19–21",
+  "words": 2156,
+  "handbook": []
+ },
+ {
+  "day": 34,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 22–24",
+  "words": 2109,
+  "handbook": []
+ },
+ {
+  "day": 35,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 25–26",
+  "words": 1863,
+  "handbook": []
+ },
+ {
+  "day": 36,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 27–28",
+  "words": 1793,
+  "handbook": []
+ },
+ {
+  "day": 37,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 29–30",
+  "words": 2311,
+  "handbook": []
+ },
+ {
+  "day": 38,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 31–33",
+  "words": 2256,
+  "handbook": []
+ },
+ {
+  "day": 39,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 34–35",
+  "words": 1824,
+  "handbook": []
+ },
+ {
+  "day": 40,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 36–38",
+  "words": 2462,
+  "handbook": []
+ },
+ {
+  "day": 41,
+  "period": "The Exodus and the wilderness",
+  "reading": "Exodus 39–40; Leviticus 1",
+  "words": 2376,
+  "handbook": [
+   {
+    "book": "Leviticus",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 42,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 2–4",
+  "words": 2154,
+  "handbook": []
+ },
+ {
+  "day": 43,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 5–6",
+  "words": 1615,
+  "handbook": []
+ },
+ {
+  "day": 44,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 7–8",
+  "words": 2044,
+  "handbook": []
+ },
+ {
+  "day": 45,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 9–11",
+  "words": 2367,
+  "handbook": []
+ },
+ {
+  "day": 46,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 12–13",
+  "words": 2119,
+  "handbook": []
+ },
+ {
+  "day": 47,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 14–15",
+  "words": 2632,
+  "handbook": []
+ },
+ {
+  "day": 48,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 16–18",
+  "words": 2377,
+  "handbook": []
+ },
+ {
+  "day": 49,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 19–21",
+  "words": 2321,
+  "handbook": []
+ },
+ {
+  "day": 50,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 22–23",
+  "words": 2101,
+  "handbook": []
+ },
+ {
+  "day": 51,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 24–25",
+  "words": 2083,
+  "handbook": []
+ },
+ {
+  "day": 52,
+  "period": "The Exodus and the wilderness",
+  "reading": "Leviticus 26–27",
+  "words": 2203,
+  "handbook": []
+ },
+ {
+  "day": 53,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 1–2",
+  "words": 2161,
+  "handbook": [
+   {
+    "book": "Numbers",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 54,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 3–4",
+  "words": 2707,
+  "handbook": []
+ },
+ {
+  "day": 55,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 5–6",
+  "words": 1640,
+  "handbook": []
+ },
+ {
+  "day": 56,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 7",
+  "words": 1939,
+  "handbook": []
+ },
+ {
+  "day": 57,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 8–10",
+  "words": 2300,
+  "handbook": []
+ },
+ {
+  "day": 58,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 11–13",
+  "words": 2183,
+  "handbook": []
+ },
+ {
+  "day": 59,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 14–15",
+  "words": 2249,
+  "handbook": []
+ },
+ {
+  "day": 60,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 16–17",
+  "words": 1676,
+  "handbook": []
+ },
+ {
+  "day": 61,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 18–20",
+  "words": 2587,
+  "handbook": []
+ },
+ {
+  "day": 62,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 21–22",
+  "words": 2134,
+  "handbook": []
+ },
+ {
+  "day": 63,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 23–25",
+  "words": 1849,
+  "handbook": []
+ },
+ {
+  "day": 64,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 26–27",
+  "words": 2056,
+  "handbook": []
+ },
+ {
+  "day": 65,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 28–29",
+  "words": 1733,
+  "handbook": []
+ },
+ {
+  "day": 66,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 30–31",
+  "words": 1711,
+  "handbook": []
+ },
+ {
+  "day": 67,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 32–33",
+  "words": 1962,
+  "handbook": []
+ },
+ {
+  "day": 68,
+  "period": "The Exodus and the wilderness",
+  "reading": "Numbers 34–36",
+  "words": 2044,
+  "handbook": []
+ },
+ {
+  "day": 69,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 1–2",
+  "words": 2287,
+  "handbook": [
+   {
+    "book": "Deuteronomy",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 70,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 3–4",
+  "words": 2325,
+  "handbook": []
+ },
+ {
+  "day": 71,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 5–7",
+  "words": 2407,
+  "handbook": []
+ },
+ {
+  "day": 72,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 8–10",
+  "words": 2135,
+  "handbook": []
+ },
+ {
+  "day": 73,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 11–12",
+  "words": 2005,
+  "handbook": []
+ },
+ {
+  "day": 74,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 13–15",
+  "words": 2042,
+  "handbook": []
+ },
+ {
+  "day": 75,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 16–18",
+  "words": 2028,
+  "handbook": []
+ },
+ {
+  "day": 76,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 19–21",
+  "words": 1985,
+  "handbook": []
+ },
+ {
+  "day": 77,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 22–24",
+  "words": 2260,
+  "handbook": []
+ },
+ {
+  "day": 78,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 25–27",
+  "words": 1828,
+  "handbook": []
+ },
+ {
+  "day": 79,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 28",
+  "words": 2075,
+  "handbook": []
+ },
+ {
+  "day": 80,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 29–31",
+  "words": 2561,
+  "handbook": []
+ },
+ {
+  "day": 81,
+  "period": "The Exodus and the wilderness",
+  "reading": "Deuteronomy 32–34",
+  "words": 2435,
+  "handbook": []
+ },
+ {
+  "day": 82,
+  "period": "The Exodus and the wilderness",
+  "reading": "Psalm 90; Joshua 1–3",
+  "words": 2227,
+  "handbook": [
+   {
+    "book": "Psalms",
+    "page": null
+   },
+   {
+    "book": "Joshua",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 83,
+  "period": "The conquest and the Judges",
+  "reading": "Joshua 4–6",
+  "words": 2161,
+  "handbook": []
+ },
+ {
+  "day": 84,
+  "period": "The conquest and the Judges",
+  "reading": "Joshua 7–8",
+  "words": 2153,
+  "handbook": []
+ },
+ {
+  "day": 85,
+  "period": "The conquest and the Judges",
+  "reading": "Joshua 9–10",
+  "words": 2199,
+  "handbook": []
+ },
+ {
+  "day": 86,
+  "period": "The conquest and the Judges",
+  "reading": "Joshua 11–13",
+  "words": 2048,
+  "handbook": []
+ },
+ {
+  "day": 87,
+  "period": "The conquest and the Judges",
+  "reading": "Joshua 14–17",
+  "words": 2468,
+  "handbook": []
+ },
+ {
+  "day": 88,
+  "period": "The conquest and the Judges",
+  "reading": "Joshua 18–20",
+  "words": 2068,
+  "handbook": []
+ },
+ {
+  "day": 89,
+  "period": "The conquest and the Judges",
+  "reading": "Joshua 21–22",
+  "words": 2354,
+  "handbook": []
+ },
+ {
+  "day": 90,
+  "period": "The conquest and the Judges",
+  "reading": "Joshua 23–24; Judges 1",
+  "words": 2600,
+  "handbook": [
+   {
+    "book": "Judges",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 91,
+  "period": "The conquest and the Judges",
+  "reading": "Judges 2–4",
+  "words": 2303,
+  "handbook": []
+ },
+ {
+  "day": 92,
+  "period": "The conquest and the Judges",
+  "reading": "Judges 5–6",
+  "words": 2056,
+  "handbook": []
+ },
+ {
+  "day": 93,
+  "period": "The conquest and the Judges",
+  "reading": "Judges 7–8",
+  "words": 1946,
+  "handbook": []
+ },
+ {
+  "day": 94,
+  "period": "The conquest and the Judges",
+  "reading": "Judges 9–10",
+  "words": 2142,
+  "handbook": []
+ },
+ {
+  "day": 95,
+  "period": "The conquest and the Judges",
+  "reading": "Judges 11–13",
+  "words": 2401,
+  "handbook": []
+ },
+ {
+  "day": 96,
+  "period": "The conquest and the Judges",
+  "reading": "Judges 14–16",
+  "words": 2466,
+  "handbook": []
+ },
+ {
+  "day": 97,
+  "period": "The conquest and the Judges",
+  "reading": "Judges 17–19",
+  "words": 2540,
+  "handbook": []
+ },
+ {
+  "day": 98,
+  "period": "The conquest and the Judges",
+  "reading": "Judges 20–21",
+  "words": 2204,
+  "handbook": []
+ },
+ {
+  "day": 99,
+  "period": "The conquest and the Judges",
+  "reading": "Ruth 1–3",
+  "words": 1961,
+  "handbook": [
+   {
+    "book": "Ruth",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 100,
+  "period": "The conquest and the Judges",
+  "reading": "Ruth 4; 1 Samuel 1–2",
+  "words": 2509,
+  "handbook": [
+   {
+    "book": "1 Samuel",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 101,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 3–6",
+  "words": 2498,
+  "handbook": []
+ },
+ {
+  "day": 102,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 7–9",
+  "words": 2047,
+  "handbook": []
+ },
+ {
+  "day": 103,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 10–12",
+  "words": 2140,
+  "handbook": []
+ },
+ {
+  "day": 104,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 13–14",
+  "words": 2309,
+  "handbook": []
+ },
+ {
+  "day": 105,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 15–16",
+  "words": 1664,
+  "handbook": []
+ },
+ {
+  "day": 106,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 17",
+  "words": 1724,
+  "handbook": []
+ },
+ {
+  "day": 107,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 18–19; Psalm 59",
+  "words": 1881,
+  "handbook": []
+ },
+ {
+  "day": 108,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 20–21; Psalms 56, 34",
+  "words": 2368,
+  "handbook": []
+ },
+ {
+  "day": 109,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 22; Psalms 52, 142, 57; 1 Samuel 23",
+  "words": 2140,
+  "handbook": []
+ },
+ {
+  "day": 110,
+  "period": "Samuel, Saul and David",
+  "reading": "Psalm 54; 1 Samuel 24–25",
+  "words": 2224,
+  "handbook": []
+ },
+ {
+  "day": 111,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 26–28",
+  "words": 2069,
+  "handbook": []
+ },
+ {
+  "day": 112,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Samuel 29–31; 1 Chronicles 1",
+  "words": 2416,
+  "handbook": [
+   {
+    "book": "1 Chronicles",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 113,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Chronicles 2–4",
+  "words": 2066,
+  "handbook": []
+ },
+ {
+  "day": 114,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Chronicles 5–6",
+  "words": 2012,
+  "handbook": []
+ },
+ {
+  "day": 115,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Chronicles 7–9",
+  "words": 2294,
+  "handbook": []
+ },
+ {
+  "day": 116,
+  "period": "Samuel, Saul and David",
+  "reading": "1 Chronicles 10; 2 Samuel 1–2",
+  "words": 1997,
+  "handbook": [
+   {
+    "book": "2 Samuel",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 117,
+  "period": "The reign of David",
+  "reading": "2 Samuel 3–5",
+  "words": 2212,
+  "handbook": []
+ },
+ {
+  "day": 118,
+  "period": "The reign of David",
+  "reading": "1 Chronicles 11–12",
+  "words": 1937,
+  "handbook": []
+ },
+ {
+  "day": 119,
+  "period": "The reign of David",
+  "reading": "2 Samuel 6; 1 Chronicles 13–15",
+  "words": 2193,
+  "handbook": []
+ },
+ {
+  "day": 120,
+  "period": "The reign of David",
+  "reading": "1 Chronicles 16; Psalms 96, 105–106",
+  "words": 2474,
+  "handbook": []
+ },
+ {
+  "day": 121,
+  "period": "The reign of David",
+  "reading": "2 Samuel 7; 1 Chronicles 17; Psalms 1–2, 4",
+  "words": 2138,
+  "handbook": []
+ },
+ {
+  "day": 122,
+  "period": "The reign of David",
+  "reading": "Psalms 5–14",
+  "words": 2145,
+  "handbook": []
+ },
+ {
+  "day": 123,
+  "period": "The reign of David",
+  "reading": "Psalms 15–17, 19–24",
+  "words": 2154,
+  "handbook": []
+ },
+ {
+  "day": 124,
+  "period": "The reign of David",
+  "reading": "Psalms 25–32",
+  "words": 2215,
+  "handbook": []
+ },
+ {
+  "day": 125,
+  "period": "The reign of David",
+  "reading": "Psalms 33, 35–38",
+  "words": 2200,
+  "handbook": []
+ },
+ {
+  "day": 126,
+  "period": "The reign of David",
+  "reading": "Psalms 39–41; 2 Samuel 8–9; 1 Chronicles 18",
+  "words": 2169,
+  "handbook": []
+ },
+ {
+  "day": 127,
+  "period": "The reign of David",
+  "reading": "Psalm 60; 2 Samuel 10; 1 Chronicles 19; 2 Samuel 11",
+  "words": 2268,
+  "handbook": []
+ },
+ {
+  "day": 128,
+  "period": "The reign of David",
+  "reading": "2 Samuel 12; 1 Chronicles 20; Psalms 51, 42–43",
+  "words": 2014,
+  "handbook": []
+ },
+ {
+  "day": 129,
+  "period": "The reign of David",
+  "reading": "Psalms 44–50",
+  "words": 2091,
+  "handbook": []
+ },
+ {
+  "day": 130,
+  "period": "The reign of David",
+  "reading": "Psalms 53, 55, 58, 61–66",
+  "words": 2138,
+  "handbook": []
+ },
+ {
+  "day": 131,
+  "period": "The reign of David",
+  "reading": "Psalms 67–71",
+  "words": 2052,
+  "handbook": []
+ },
+ {
+  "day": 132,
+  "period": "The reign of David",
+  "reading": "2 Samuel 13–14",
+  "words": 2267,
+  "handbook": []
+ },
+ {
+  "day": 133,
+  "period": "The reign of David",
+  "reading": "2 Samuel 15; Psalm 3; 2 Samuel 16",
+  "words": 1995,
+  "handbook": []
+ },
+ {
+  "day": 134,
+  "period": "The reign of David",
+  "reading": "2 Samuel 17–18",
+  "words": 2034,
+  "handbook": []
+ },
+ {
+  "day": 135,
+  "period": "The reign of David",
+  "reading": "2 Samuel 19–20",
+  "words": 2323,
+  "handbook": []
+ },
+ {
+  "day": 136,
+  "period": "The reign of David",
+  "reading": "2 Samuel 21–22",
+  "words": 1734,
+  "handbook": []
+ },
+ {
+  "day": 137,
+  "period": "The reign of David",
+  "reading": "Psalm 18; 2 Samuel 23",
+  "words": 1801,
+  "handbook": []
+ },
+ {
+  "day": 138,
+  "period": "The reign of David",
+  "reading": "2 Samuel 24; 1 Chronicles 21–22",
+  "words": 2383,
+  "handbook": []
+ },
+ {
+  "day": 139,
+  "period": "The reign of David",
+  "reading": "1 Chronicles 23–25; Psalm 73",
+  "words": 2190,
+  "handbook": []
+ },
+ {
+  "day": 140,
+  "period": "The reign of David",
+  "reading": "Psalms 75–78",
+  "words": 1937,
+  "handbook": []
+ },
+ {
+  "day": 141,
+  "period": "The reign of David",
+  "reading": "Psalms 80–88",
+  "words": 2165,
+  "handbook": []
+ },
+ {
+  "day": 142,
+  "period": "The reign of David",
+  "reading": "Psalm 89; 1 Chronicles 26–27",
+  "words": 2417,
+  "handbook": []
+ },
+ {
+  "day": 143,
+  "period": "The reign of David",
+  "reading": "1 Chronicles 28–29; Psalm 91",
+  "words": 2140,
+  "handbook": []
+ },
+ {
+  "day": 144,
+  "period": "The reign of David",
+  "reading": "Psalms 92–95, 97–102",
+  "words": 2135,
+  "handbook": []
+ },
+ {
+  "day": 145,
+  "period": "The reign of David",
+  "reading": "Psalms 103–104, 107–108",
+  "words": 1831,
+  "handbook": []
+ },
+ {
+  "day": 146,
+  "period": "The reign of David",
+  "reading": "Psalms 109–118",
+  "words": 2336,
+  "handbook": []
+ },
+ {
+  "day": 147,
+  "period": "The reign of David",
+  "reading": "Psalm 119",
+  "words": 2423,
+  "handbook": []
+ },
+ {
+  "day": 148,
+  "period": "The reign of David",
+  "reading": "Psalms 120–125, 128–136",
+  "words": 2112,
+  "handbook": []
+ },
+ {
+  "day": 149,
+  "period": "The reign of David",
+  "reading": "Psalms 138–141, 143–146",
+  "words": 2087,
+  "handbook": []
+ },
+ {
+  "day": 150,
+  "period": "The reign of David",
+  "reading": "Psalms 147–150; 1 Kings 1",
+  "words": 2239,
+  "handbook": [
+   {
+    "book": "1 Kings",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 151,
+  "period": "The reign of Solomon",
+  "reading": "1 Kings 2; Psalm 72",
+  "words": 1882,
+  "handbook": []
+ },
+ {
+  "day": 152,
+  "period": "The reign of Solomon",
+  "reading": "1 Kings 3–4; 2 Chronicles 1",
+  "words": 2095,
+  "handbook": [
+   {
+    "book": "2 Chronicles",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 153,
+  "period": "The reign of Solomon",
+  "reading": "Proverbs 1–5",
+  "words": 2141,
+  "handbook": [
+   {
+    "book": "Proverbs",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 154,
+  "period": "The reign of Solomon",
+  "reading": "Proverbs 6–9",
+  "words": 1807,
+  "handbook": []
+ },
+ {
+  "day": 155,
+  "period": "The reign of Solomon",
+  "reading": "Proverbs 10–13",
+  "words": 1927,
+  "handbook": []
+ },
+ {
+  "day": 156,
+  "period": "The reign of Solomon",
+  "reading": "Proverbs 14–17",
+  "words": 2135,
+  "handbook": []
+ },
+ {
+  "day": 157,
+  "period": "The reign of Solomon",
+  "reading": "Proverbs 18–21",
+  "words": 1886,
+  "handbook": []
+ },
+ {
+  "day": 158,
+  "period": "The reign of Solomon",
+  "reading": "Proverbs 22–25",
+  "words": 2163,
+  "handbook": []
+ },
+ {
+  "day": 159,
+  "period": "The reign of Solomon",
+  "reading": "Proverbs 26–29",
+  "words": 1872,
+  "handbook": []
+ },
+ {
+  "day": 160,
+  "period": "The reign of Solomon",
+  "reading": "Proverbs 30–31; Song of Solomon 1–3",
+  "words": 2072,
+  "handbook": [
+   {
+    "book": "Song of Solomon",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 161,
+  "period": "The reign of Solomon",
+  "reading": "Song of Solomon 4–8; 1 Kings 5",
+  "words": 2223,
+  "handbook": []
+ },
+ {
+  "day": 162,
+  "period": "The reign of Solomon",
+  "reading": "1 Kings 6–7",
+  "words": 2500,
+  "handbook": []
+ },
+ {
+  "day": 163,
+  "period": "The reign of Solomon",
+  "reading": "1 Kings 8",
+  "words": 2139,
+  "handbook": []
+ },
+ {
+  "day": 164,
+  "period": "The reign of Solomon",
+  "reading": "2 Chronicles 2–5",
+  "words": 2221,
+  "handbook": []
+ },
+ {
+  "day": 165,
+  "period": "The reign of Solomon",
+  "reading": "2 Chronicles 6–7",
+  "words": 2150,
+  "handbook": []
+ },
+ {
+  "day": 166,
+  "period": "The reign of Solomon",
+  "reading": "Psalm 127; 1 Kings 9–10",
+  "words": 1777,
+  "handbook": []
+ },
+ {
+  "day": 167,
+  "period": "The reign of Solomon",
+  "reading": "1 Kings 11; 2 Chronicles 8",
+  "words": 1793,
+  "handbook": []
+ },
+ {
+  "day": 168,
+  "period": "The reign of Solomon",
+  "reading": "2 Chronicles 9; Ecclesiastes 1–2",
+  "words": 1996,
+  "handbook": [
+   {
+    "book": "Ecclesiastes",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 169,
+  "period": "The reign of Solomon",
+  "reading": "Ecclesiastes 3–7",
+  "words": 2348,
+  "handbook": []
+ },
+ {
+  "day": 170,
+  "period": "The reign of Solomon",
+  "reading": "Ecclesiastes 8–12",
+  "words": 2117,
+  "handbook": []
+ },
+ {
+  "day": 171,
+  "period": "The divided kingdom",
+  "reading": "1 Kings 12–13",
+  "words": 2194,
+  "handbook": []
+ },
+ {
+  "day": 172,
+  "period": "The divided kingdom",
+  "reading": "1 Kings 14; 2 Chronicles 10–11",
+  "words": 2035,
+  "handbook": []
+ },
+ {
+  "day": 173,
+  "period": "The divided kingdom",
+  "reading": "2 Chronicles 12; 1 Kings 15–16",
+  "words": 2472,
+  "handbook": []
+ },
+ {
+  "day": 174,
+  "period": "The divided kingdom",
+  "reading": "2 Chronicles 13–16",
+  "words": 2091,
+  "handbook": []
+ },
+ {
+  "day": 175,
+  "period": "The divided kingdom",
+  "reading": "1 Kings 17–18",
+  "words": 2077,
+  "handbook": []
+ },
+ {
+  "day": 176,
+  "period": "The divided kingdom",
+  "reading": "1 Kings 19–20",
+  "words": 2229,
+  "handbook": []
+ },
+ {
+  "day": 177,
+  "period": "The divided kingdom",
+  "reading": "1 Kings 21–22",
+  "words": 2432,
+  "handbook": []
+ },
+ {
+  "day": 178,
+  "period": "The divided kingdom",
+  "reading": "2 Chronicles 17–19",
+  "words": 1871,
+  "handbook": []
+ },
+ {
+  "day": 179,
+  "period": "The divided kingdom",
+  "reading": "2 Chronicles 20; 2 Kings 1–2",
+  "words": 2676,
+  "handbook": [
+   {
+    "book": "2 Kings",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 180,
+  "period": "The divided kingdom",
+  "reading": "2 Kings 3–4",
+  "words": 2219,
+  "handbook": []
+ },
+ {
+  "day": 181,
+  "period": "The divided kingdom",
+  "reading": "2 Kings 5–6",
+  "words": 1997,
+  "handbook": []
+ },
+ {
+  "day": 182,
+  "period": "The divided kingdom",
+  "reading": "2 Kings 7–8; 2 Chronicles 21",
+  "words": 2403,
+  "handbook": []
+ },
+ {
+  "day": 183,
+  "period": "The divided kingdom",
+  "reading": "Obadiah; 2 Kings 9",
+  "words": 1877,
+  "handbook": [
+   {
+    "book": "Obadiah",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 184,
+  "period": "The divided kingdom",
+  "reading": "2 Kings 10–11",
+  "words": 1942,
+  "handbook": []
+ },
+ {
+  "day": 185,
+  "period": "The divided kingdom",
+  "reading": "2 Chronicles 22–23; 2 Kings 12",
+  "words": 1922,
+  "handbook": []
+ },
+ {
+  "day": 186,
+  "period": "The divided kingdom",
+  "reading": "2 Chronicles 24; Joel 1–2",
+  "words": 2400,
+  "handbook": [
+   {
+    "book": "Joel",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 187,
+  "period": "The divided kingdom",
+  "reading": "Joel 3; 2 Kings 13–14",
+  "words": 2233,
+  "handbook": []
+ },
+ {
+  "day": 188,
+  "period": "The divided kingdom",
+  "reading": "2 Chronicles 25; Jonah 1–4",
+  "words": 2299,
+  "handbook": [
+   {
+    "book": "Jonah",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 189,
+  "period": "The divided kingdom",
+  "reading": "2 Chronicles 26; Amos 1–3",
+  "words": 2024,
+  "handbook": [
+   {
+    "book": "Amos",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 190,
+  "period": "The divided kingdom",
+  "reading": "Amos 4–7",
+  "words": 1967,
+  "handbook": []
+ },
+ {
+  "day": 191,
+  "period": "The divided kingdom",
+  "reading": "Amos 8–9; Hosea 1–2",
+  "words": 2001,
+  "handbook": [
+   {
+    "book": "Hosea",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 192,
+  "period": "The divided kingdom",
+  "reading": "Hosea 3–8",
+  "words": 1973,
+  "handbook": []
+ },
+ {
+  "day": 193,
+  "period": "The divided kingdom",
+  "reading": "Hosea 9–14",
+  "words": 2175,
+  "handbook": []
+ },
+ {
+  "day": 194,
+  "period": "The divided kingdom",
+  "reading": "2 Kings 15–16; 2 Chronicles 27",
+  "words": 1997,
+  "handbook": []
+ },
+ {
+  "day": 195,
+  "period": "The divided kingdom",
+  "reading": "2 Chronicles 28; Micah 1–3",
+  "words": 2106,
+  "handbook": [
+   {
+    "book": "Micah",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 196,
+  "period": "The divided kingdom",
+  "reading": "Micah 4–7",
+  "words": 1947,
+  "handbook": []
+ },
+ {
+  "day": 197,
+  "period": "The divided kingdom",
+  "reading": "2 Kings 17–18",
+  "words": 2473,
+  "handbook": []
+ },
+ {
+  "day": 198,
+  "period": "Judah alone",
+  "reading": "2 Kings 19–20",
+  "words": 1811,
+  "handbook": []
+ },
+ {
+  "day": 199,
+  "period": "Judah alone",
+  "reading": "2 Chronicles 29–30",
+  "words": 2035,
+  "handbook": []
+ },
+ {
+  "day": 200,
+  "period": "Judah alone",
+  "reading": "2 Chronicles 31–32",
+  "words": 1841,
+  "handbook": []
+ },
+ {
+  "day": 201,
+  "period": "Judah alone",
+  "reading": "Isaiah 1–4",
+  "words": 2121,
+  "handbook": [
+   {
+    "book": "Isaiah",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 202,
+  "period": "Judah alone",
+  "reading": "Isaiah 5–7",
+  "words": 1927,
+  "handbook": []
+ },
+ {
+  "day": 203,
+  "period": "Judah alone",
+  "reading": "Isaiah 8–10",
+  "words": 2091,
+  "handbook": []
+ },
+ {
+  "day": 204,
+  "period": "Judah alone",
+  "reading": "Isaiah 11–14",
+  "words": 2085,
+  "handbook": []
+ },
+ {
+  "day": 205,
+  "period": "Judah alone",
+  "reading": "Isaiah 15–20",
+  "words": 2266,
+  "handbook": []
+ },
+ {
+  "day": 206,
+  "period": "Judah alone",
+  "reading": "Isaiah 21–24",
+  "words": 2154,
+  "handbook": []
+ },
+ {
+  "day": 207,
+  "period": "Judah alone",
+  "reading": "Isaiah 25–28",
+  "words": 2150,
+  "handbook": []
+ },
+ {
+  "day": 208,
+  "period": "Judah alone",
+  "reading": "Isaiah 29–31",
+  "words": 2123,
+  "handbook": []
+ },
+ {
+  "day": 209,
+  "period": "Judah alone",
+  "reading": "Isaiah 32–36",
+  "words": 2510,
+  "handbook": []
+ },
+ {
+  "day": 210,
+  "period": "Judah alone",
+  "reading": "Isaiah 37–39",
+  "words": 1993,
+  "handbook": []
+ },
+ {
+  "day": 211,
+  "period": "Judah alone",
+  "reading": "Isaiah 40–42",
+  "words": 2276,
+  "handbook": []
+ },
+ {
+  "day": 212,
+  "period": "Judah alone",
+  "reading": "Isaiah 43–45",
+  "words": 2376,
+  "handbook": []
+ },
+ {
+  "day": 213,
+  "period": "Judah alone",
+  "reading": "Isaiah 46–49",
+  "words": 2307,
+  "handbook": []
+ },
+ {
+  "day": 214,
+  "period": "Judah alone",
+  "reading": "Isaiah 50–54",
+  "words": 2421,
+  "handbook": []
+ },
+ {
+  "day": 215,
+  "period": "Judah alone",
+  "reading": "Isaiah 55–59",
+  "words": 2440,
+  "handbook": []
+ },
+ {
+  "day": 216,
+  "period": "Judah alone",
+  "reading": "Isaiah 60–64",
+  "words": 2255,
+  "handbook": []
+ },
+ {
+  "day": 217,
+  "period": "Judah alone",
+  "reading": "Isaiah 65–66; 2 Kings 21",
+  "words": 2312,
+  "handbook": []
+ },
+ {
+  "day": 218,
+  "period": "Judah alone",
+  "reading": "2 Chronicles 33; Nahum 1–3",
+  "words": 2072,
+  "handbook": [
+   {
+    "book": "Nahum",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 219,
+  "period": "Judah alone",
+  "reading": "2 Kings 22–23",
+  "words": 2199,
+  "handbook": []
+ },
+ {
+  "day": 220,
+  "period": "Judah alone",
+  "reading": "2 Chronicles 34–35",
+  "words": 2123,
+  "handbook": []
+ },
+ {
+  "day": 221,
+  "period": "Judah alone",
+  "reading": "Zephaniah 1–3; Habakkuk 1",
+  "words": 2042,
+  "handbook": [
+   {
+    "book": "Zephaniah",
+    "page": null
+   },
+   {
+    "book": "Habakkuk",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 222,
+  "period": "Judah alone",
+  "reading": "Habakkuk 2–3; Jeremiah 1–2",
+  "words": 2599,
+  "handbook": [
+   {
+    "book": "Jeremiah",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 223,
+  "period": "Judah alone",
+  "reading": "Jeremiah 3–5",
+  "words": 2537,
+  "handbook": []
+ },
+ {
+  "day": 224,
+  "period": "Judah alone",
+  "reading": "Jeremiah 6–8",
+  "words": 2504,
+  "handbook": []
+ },
+ {
+  "day": 225,
+  "period": "Judah alone",
+  "reading": "Jeremiah 9–11",
+  "words": 2195,
+  "handbook": []
+ },
+ {
+  "day": 226,
+  "period": "Judah alone",
+  "reading": "Jeremiah 12–14",
+  "words": 1971,
+  "handbook": []
+ },
+ {
+  "day": 227,
+  "period": "Judah alone",
+  "reading": "Jeremiah 15–17",
+  "words": 2232,
+  "handbook": []
+ },
+ {
+  "day": 228,
+  "period": "Judah alone",
+  "reading": "Jeremiah 18–21",
+  "words": 2293,
+  "handbook": []
+ },
+ {
+  "day": 229,
+  "period": "Judah alone",
+  "reading": "Jeremiah 22–23",
+  "words": 2026,
+  "handbook": []
+ },
+ {
+  "day": 230,
+  "period": "Judah alone",
+  "reading": "Jeremiah 24–26",
+  "words": 2309,
+  "handbook": []
+ },
+ {
+  "day": 231,
+  "period": "Judah alone",
+  "reading": "Jeremiah 27–29",
+  "words": 2308,
+  "handbook": []
+ },
+ {
+  "day": 232,
+  "period": "Judah alone",
+  "reading": "2 Kings 24; Ezekiel 1–3",
+  "words": 2537,
+  "handbook": [
+   {
+    "book": "Ezekiel",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 233,
+  "period": "Judah alone",
+  "reading": "Ezekiel 4–7",
+  "words": 2385,
+  "handbook": []
+ },
+ {
+  "day": 234,
+  "period": "Judah alone",
+  "reading": "Ezekiel 8–11",
+  "words": 2435,
+  "handbook": []
+ },
+ {
+  "day": 235,
+  "period": "Judah alone",
+  "reading": "Ezekiel 12–14",
+  "words": 2283,
+  "handbook": []
+ },
+ {
+  "day": 236,
+  "period": "Judah alone",
+  "reading": "Ezekiel 15–16",
+  "words": 2025,
+  "handbook": []
+ },
+ {
+  "day": 237,
+  "period": "Judah alone",
+  "reading": "Ezekiel 17–18",
+  "words": 1692,
+  "handbook": []
+ },
+ {
+  "day": 238,
+  "period": "Judah alone",
+  "reading": "Ezekiel 19–20",
+  "words": 1957,
+  "handbook": []
+ },
+ {
+  "day": 239,
+  "period": "Judah alone",
+  "reading": "Ezekiel 21–22",
+  "words": 1785,
+  "handbook": []
+ },
+ {
+  "day": 240,
+  "period": "Judah alone",
+  "reading": "Ezekiel 23–24",
+  "words": 2096,
+  "handbook": []
+ },
+ {
+  "day": 241,
+  "period": "Judah alone",
+  "reading": "Jeremiah 30–31",
+  "words": 2011,
+  "handbook": []
+ },
+ {
+  "day": 242,
+  "period": "Judah alone",
+  "reading": "Jeremiah 32–33",
+  "words": 2281,
+  "handbook": []
+ },
+ {
+  "day": 243,
+  "period": "Judah alone",
+  "reading": "Jeremiah 34–36",
+  "words": 2591,
+  "handbook": []
+ },
+ {
+  "day": 244,
+  "period": "Judah alone",
+  "reading": "Jeremiah 37–39",
+  "words": 2158,
+  "handbook": []
+ },
+ {
+  "day": 245,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "2 Kings 25; 2 Chronicles 36",
+  "words": 1727,
+  "handbook": []
+ },
+ {
+  "day": 246,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Jeremiah 40–42",
+  "words": 2122,
+  "handbook": []
+ },
+ {
+  "day": 247,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Jeremiah 43–45",
+  "words": 1843,
+  "handbook": []
+ },
+ {
+  "day": 248,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Jeremiah 46–48",
+  "words": 2215,
+  "handbook": []
+ },
+ {
+  "day": 249,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Jeremiah 49–50",
+  "words": 2641,
+  "handbook": []
+ },
+ {
+  "day": 250,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Jeremiah 51",
+  "words": 1853,
+  "handbook": []
+ },
+ {
+  "day": 251,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Jeremiah 52; Lamentations 1",
+  "words": 1838,
+  "handbook": [
+   {
+    "book": "Lamentations",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 252,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Lamentations 2–3",
+  "words": 1759,
+  "handbook": []
+ },
+ {
+  "day": 253,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Lamentations 4–5; Psalms 74, 79, 137; Ezekiel 25",
+  "words": 2258,
+  "handbook": []
+ },
+ {
+  "day": 254,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Ezekiel 26–28",
+  "words": 2443,
+  "handbook": []
+ },
+ {
+  "day": 255,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Ezekiel 29–31",
+  "words": 2155,
+  "handbook": []
+ },
+ {
+  "day": 256,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Ezekiel 32–33",
+  "words": 2148,
+  "handbook": []
+ },
+ {
+  "day": 257,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Ezekiel 34–36",
+  "words": 2542,
+  "handbook": []
+ },
+ {
+  "day": 258,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Ezekiel 37–39",
+  "words": 2576,
+  "handbook": []
+ },
+ {
+  "day": 259,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Ezekiel 40–41",
+  "words": 2332,
+  "handbook": []
+ },
+ {
+  "day": 260,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Ezekiel 42–44",
+  "words": 2506,
+  "handbook": []
+ },
+ {
+  "day": 261,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Ezekiel 45–46",
+  "words": 1762,
+  "handbook": []
+ },
+ {
+  "day": 262,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Ezekiel 47–48; Daniel 1",
+  "words": 2423,
+  "handbook": [
+   {
+    "book": "Daniel",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 263,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Daniel 2–3",
+  "words": 2506,
+  "handbook": []
+ },
+ {
+  "day": 264,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Daniel 4–5",
+  "words": 2285,
+  "handbook": []
+ },
+ {
+  "day": 265,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Daniel 6–7",
+  "words": 1831,
+  "handbook": []
+ },
+ {
+  "day": 266,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Daniel 8–9",
+  "words": 1818,
+  "handbook": []
+ },
+ {
+  "day": 267,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Daniel 10–11",
+  "words": 2176,
+  "handbook": []
+ },
+ {
+  "day": 268,
+  "period": "The fall of Jerusalem and the exile",
+  "reading": "Daniel 12; Ezra 1–3",
+  "words": 2337,
+  "handbook": [
+   {
+    "book": "Ezra",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 269,
+  "period": "The return from exile",
+  "reading": "Ezra 4–6; Psalm 126",
+  "words": 2229,
+  "handbook": []
+ },
+ {
+  "day": 270,
+  "period": "The return from exile",
+  "reading": "Haggai 1–2; Zechariah 1–3",
+  "words": 2365,
+  "handbook": [
+   {
+    "book": "Haggai",
+    "page": null
+   },
+   {
+    "book": "Zechariah",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 271,
+  "period": "The return from exile",
+  "reading": "Zechariah 4–8",
+  "words": 2211,
+  "handbook": []
+ },
+ {
+  "day": 272,
+  "period": "The return from exile",
+  "reading": "Zechariah 9–13",
+  "words": 2246,
+  "handbook": []
+ },
+ {
+  "day": 273,
+  "period": "The return from exile",
+  "reading": "Zechariah 14; Esther 1–2",
+  "words": 2276,
+  "handbook": [
+   {
+    "book": "Esther",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 274,
+  "period": "The return from exile",
+  "reading": "Esther 3–6",
+  "words": 2039,
+  "handbook": []
+ },
+ {
+  "day": 275,
+  "period": "The return from exile",
+  "reading": "Esther 7–10",
+  "words": 2072,
+  "handbook": []
+ },
+ {
+  "day": 276,
+  "period": "The return from exile",
+  "reading": "Ezra 7–8",
+  "words": 1854,
+  "handbook": []
+ },
+ {
+  "day": 277,
+  "period": "The return from exile",
+  "reading": "Ezra 9–10; Nehemiah 1",
+  "words": 1932,
+  "handbook": [
+   {
+    "book": "Nehemiah",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 278,
+  "period": "The return from exile",
+  "reading": "Nehemiah 2–4",
+  "words": 2334,
+  "handbook": []
+ },
+ {
+  "day": 279,
+  "period": "The return from exile",
+  "reading": "Nehemiah 5–7",
+  "words": 2421,
+  "handbook": []
+ },
+ {
+  "day": 280,
+  "period": "The return from exile",
+  "reading": "Nehemiah 8–9",
+  "words": 2014,
+  "handbook": []
+ },
+ {
+  "day": 281,
+  "period": "The return from exile",
+  "reading": "Nehemiah 10–12",
+  "words": 2379,
+  "handbook": []
+ },
+ {
+  "day": 282,
+  "period": "The return from exile",
+  "reading": "Nehemiah 13; Malachi 1–2",
+  "words": 1995,
+  "handbook": [
+   {
+    "book": "Malachi",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 283,
+  "period": "The return from exile",
+  "reading": "Malachi 3–4; Luke 1",
+  "words": 2333,
+  "handbook": [
+   {
+    "book": "Luke",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 284,
+  "period": "The birth and early years of Jesus",
+  "reading": "Matthew 1; Luke 2; Matthew 2",
+  "words": 2188,
+  "handbook": [
+   {
+    "book": "Matthew",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 285,
+  "period": "The birth and early years of Jesus",
+  "reading": "John 1; Mark 1",
+  "words": 1935,
+  "handbook": [
+   {
+    "book": "John",
+    "page": null
+   },
+   {
+    "book": "Mark",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 286,
+  "period": "The ministry of Jesus",
+  "reading": "Matthew 3–4; Luke 3",
+  "words": 1963,
+  "handbook": []
+ },
+ {
+  "day": 287,
+  "period": "The ministry of Jesus",
+  "reading": "Luke 4; John 2–3",
+  "words": 2295,
+  "handbook": []
+ },
+ {
+  "day": 288,
+  "period": "The ministry of Jesus",
+  "reading": "John 4; Mark 2–3",
+  "words": 2487,
+  "handbook": []
+ },
+ {
+  "day": 289,
+  "period": "The ministry of Jesus",
+  "reading": "Mark 4–5",
+  "words": 1875,
+  "handbook": []
+ },
+ {
+  "day": 290,
+  "period": "The ministry of Jesus",
+  "reading": "Mark 6; Matthew 5",
+  "words": 2404,
+  "handbook": []
+ },
+ {
+  "day": 291,
+  "period": "The ministry of Jesus",
+  "reading": "Matthew 6–8",
+  "words": 2193,
+  "handbook": []
+ },
+ {
+  "day": 292,
+  "period": "The ministry of Jesus",
+  "reading": "Matthew 9–10",
+  "words": 1756,
+  "handbook": []
+ },
+ {
+  "day": 293,
+  "period": "The ministry of Jesus",
+  "reading": "Matthew 11–12",
+  "words": 1836,
+  "handbook": []
+ },
+ {
+  "day": 294,
+  "period": "The ministry of Jesus",
+  "reading": "Matthew 13–14",
+  "words": 2088,
+  "handbook": []
+ },
+ {
+  "day": 295,
+  "period": "The ministry of Jesus",
+  "reading": "Luke 5–6",
+  "words": 2181,
+  "handbook": []
+ },
+ {
+  "day": 296,
+  "period": "The ministry of Jesus",
+  "reading": "Luke 7–8",
+  "words": 2641,
+  "handbook": []
+ },
+ {
+  "day": 297,
+  "period": "The ministry of Jesus",
+  "reading": "Luke 9; John 5",
+  "words": 2458,
+  "handbook": []
+ },
+ {
+  "day": 298,
+  "period": "The ministry of Jesus",
+  "reading": "John 6; Mark 7",
+  "words": 2312,
+  "handbook": []
+ },
+ {
+  "day": 299,
+  "period": "The ministry of Jesus",
+  "reading": "Mark 8–9",
+  "words": 2007,
+  "handbook": []
+ },
+ {
+  "day": 300,
+  "period": "The ministry of Jesus",
+  "reading": "Mark 10; Matthew 15",
+  "words": 2006,
+  "handbook": []
+ },
+ {
+  "day": 301,
+  "period": "The ministry of Jesus",
+  "reading": "Matthew 16–18",
+  "words": 2178,
+  "handbook": []
+ },
+ {
+  "day": 302,
+  "period": "The ministry of Jesus",
+  "reading": "Matthew 19–20; Luke 10",
+  "words": 2490,
+  "handbook": []
+ },
+ {
+  "day": 303,
+  "period": "The ministry of Jesus",
+  "reading": "Luke 11–12",
+  "words": 2738,
+  "handbook": []
+ },
+ {
+  "day": 304,
+  "period": "The ministry of Jesus",
+  "reading": "Luke 13–15",
+  "words": 2404,
+  "handbook": []
+ },
+ {
+  "day": 305,
+  "period": "The ministry of Jesus",
+  "reading": "Luke 16–18",
+  "words": 2429,
+  "handbook": []
+ },
+ {
+  "day": 306,
+  "period": "The ministry of Jesus",
+  "reading": "Luke 19; John 7",
+  "words": 2053,
+  "handbook": []
+ },
+ {
+  "day": 307,
+  "period": "The ministry of Jesus",
+  "reading": "John 8–9",
+  "words": 2183,
+  "handbook": []
+ },
+ {
+  "day": 308,
+  "period": "The ministry of Jesus",
+  "reading": "John 10–11",
+  "words": 1978,
+  "handbook": []
+ },
+ {
+  "day": 309,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "Mark 11–13",
+  "words": 2669,
+  "handbook": []
+ },
+ {
+  "day": 310,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "Matthew 21–22",
+  "words": 1957,
+  "handbook": []
+ },
+ {
+  "day": 311,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "Matthew 23–24",
+  "words": 1880,
+  "handbook": []
+ },
+ {
+  "day": 312,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "Matthew 25; Luke 20",
+  "words": 1953,
+  "handbook": []
+ },
+ {
+  "day": 313,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "Luke 21; John 12",
+  "words": 1881,
+  "handbook": []
+ },
+ {
+  "day": 314,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "Mark 14–15",
+  "words": 2509,
+  "handbook": []
+ },
+ {
+  "day": 315,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "Matthew 26–27",
+  "words": 2985,
+  "handbook": []
+ },
+ {
+  "day": 316,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "Luke 22–23",
+  "words": 2517,
+  "handbook": []
+ },
+ {
+  "day": 317,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "John 13–15",
+  "words": 2170,
+  "handbook": []
+ },
+ {
+  "day": 318,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "John 16–18",
+  "words": 2372,
+  "handbook": []
+ },
+ {
+  "day": 319,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "John 19; Mark 16; Matthew 28",
+  "words": 1883,
+  "handbook": []
+ },
+ {
+  "day": 320,
+  "period": "The last week, the cross and the resurrection",
+  "reading": "Luke 24; John 20–21",
+  "words": 2497,
+  "handbook": []
+ },
+ {
+  "day": 321,
+  "period": "The early Church",
+  "reading": "Acts 1–3",
+  "words": 2320,
+  "handbook": [
+   {
+    "book": "Acts",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 322,
+  "period": "The early Church",
+  "reading": "Acts 4–6",
+  "words": 2246,
+  "handbook": []
+ },
+ {
+  "day": 323,
+  "period": "The early Church",
+  "reading": "Acts 7–8",
+  "words": 2316,
+  "handbook": []
+ },
+ {
+  "day": 324,
+  "period": "The early Church",
+  "reading": "Acts 9–10",
+  "words": 2159,
+  "handbook": []
+ },
+ {
+  "day": 325,
+  "period": "The early Church",
+  "reading": "Acts 11–12; James 1",
+  "words": 1879,
+  "handbook": [
+   {
+    "book": "James",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 326,
+  "period": "The early Church",
+  "reading": "James 2–5",
+  "words": 1760,
+  "handbook": []
+ },
+ {
+  "day": 327,
+  "period": "Paul's journeys and letters",
+  "reading": "Acts 13–14; Galatians 1",
+  "words": 2353,
+  "handbook": [
+   {
+    "book": "Galatians",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 328,
+  "period": "Paul's journeys and letters",
+  "reading": "Galatians 2–5",
+  "words": 2278,
+  "handbook": []
+ },
+ {
+  "day": 329,
+  "period": "Paul's journeys and letters",
+  "reading": "Galatians 6; Acts 15–16",
+  "words": 2222,
+  "handbook": []
+ },
+ {
+  "day": 330,
+  "period": "Paul's journeys and letters",
+  "reading": "Acts 17–18; 1 Thessalonians 1–2",
+  "words": 2254,
+  "handbook": [
+   {
+    "book": "1 Thessalonians",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 331,
+  "period": "Paul's journeys and letters",
+  "reading": "1 Thessalonians 3–5; 2 Thessalonians 1–3",
+  "words": 2127,
+  "handbook": [
+   {
+    "book": "2 Thessalonians",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 332,
+  "period": "Paul's journeys and letters",
+  "reading": "Acts 19; 1 Corinthians 1–2",
+  "words": 1997,
+  "handbook": [
+   {
+    "book": "1 Corinthians",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 333,
+  "period": "Paul's journeys and letters",
+  "reading": "1 Corinthians 3–6",
+  "words": 1754,
+  "handbook": []
+ },
+ {
+  "day": 334,
+  "period": "Paul's journeys and letters",
+  "reading": "1 Corinthians 7–9",
+  "words": 1939,
+  "handbook": []
+ },
+ {
+  "day": 335,
+  "period": "Paul's journeys and letters",
+  "reading": "1 Corinthians 10–13",
+  "words": 2248,
+  "handbook": []
+ },
+ {
+  "day": 336,
+  "period": "Paul's journeys and letters",
+  "reading": "1 Corinthians 14–16",
+  "words": 2499,
+  "handbook": []
+ },
+ {
+  "day": 337,
+  "period": "Paul's journeys and letters",
+  "reading": "Acts 20; 2 Corinthians 1–3",
+  "words": 2265,
+  "handbook": [
+   {
+    "book": "2 Corinthians",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 338,
+  "period": "Paul's journeys and letters",
+  "reading": "2 Corinthians 4–8",
+  "words": 2270,
+  "handbook": []
+ },
+ {
+  "day": 339,
+  "period": "Paul's journeys and letters",
+  "reading": "2 Corinthians 9–12",
+  "words": 2099,
+  "handbook": []
+ },
+ {
+  "day": 340,
+  "period": "Paul's journeys and letters",
+  "reading": "2 Corinthians 13; Romans 1–3",
+  "words": 2196,
+  "handbook": [
+   {
+    "book": "Romans",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 341,
+  "period": "Paul's journeys and letters",
+  "reading": "Romans 4–7",
+  "words": 2115,
+  "handbook": []
+ },
+ {
+  "day": 342,
+  "period": "Paul's journeys and letters",
+  "reading": "Romans 8–10",
+  "words": 2084,
+  "handbook": []
+ },
+ {
+  "day": 343,
+  "period": "Paul's journeys and letters",
+  "reading": "Romans 11–14",
+  "words": 2101,
+  "handbook": []
+ },
+ {
+  "day": 344,
+  "period": "Paul's journeys and letters",
+  "reading": "Romans 15–16; Acts 21",
+  "words": 2313,
+  "handbook": []
+ },
+ {
+  "day": 345,
+  "period": "Paul's journeys and letters",
+  "reading": "Acts 22–23",
+  "words": 1696,
+  "handbook": []
+ },
+ {
+  "day": 346,
+  "period": "Paul's journeys and letters",
+  "reading": "Acts 24–26",
+  "words": 2144,
+  "handbook": []
+ },
+ {
+  "day": 347,
+  "period": "Paul's journeys and letters",
+  "reading": "Acts 27–28",
+  "words": 1854,
+  "handbook": []
+ },
+ {
+  "day": 348,
+  "period": "Paul's journeys and letters",
+  "reading": "Ephesians 1–4",
+  "words": 1990,
+  "handbook": [
+   {
+    "book": "Ephesians",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 349,
+  "period": "Paul's journeys and letters",
+  "reading": "Ephesians 5–6; Philippians 1–2",
+  "words": 2267,
+  "handbook": [
+   {
+    "book": "Philippians",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 350,
+  "period": "Paul's journeys and letters",
+  "reading": "Philippians 3–4; Colossians 1–2",
+  "words": 2109,
+  "handbook": [
+   {
+    "book": "Colossians",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 351,
+  "period": "Paul's journeys and letters",
+  "reading": "Colossians 3–4; Philemon; 1 Timothy 1–3",
+  "words": 2253,
+  "handbook": [
+   {
+    "book": "Philemon",
+    "page": null
+   },
+   {
+    "book": "1 Timothy",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 352,
+  "period": "The last letters and Revelation",
+  "reading": "1 Timothy 4–6; Titus 1–3",
+  "words": 2137,
+  "handbook": [
+   {
+    "book": "Titus",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 353,
+  "period": "The last letters and Revelation",
+  "reading": "1 Peter 1–4",
+  "words": 2176,
+  "handbook": [
+   {
+    "book": "1 Peter",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 354,
+  "period": "The last letters and Revelation",
+  "reading": "1 Peter 5; 2 Timothy 1–4",
+  "words": 1966,
+  "handbook": [
+   {
+    "book": "2 Timothy",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 355,
+  "period": "The last letters and Revelation",
+  "reading": "2 Peter 1–3; Hebrews 1–2",
+  "words": 2364,
+  "handbook": [
+   {
+    "book": "2 Peter",
+    "page": null
+   },
+   {
+    "book": "Hebrews",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 356,
+  "period": "The last letters and Revelation",
+  "reading": "Hebrews 3–7",
+  "words": 2119,
+  "handbook": []
+ },
+ {
+  "day": 357,
+  "period": "The last letters and Revelation",
+  "reading": "Hebrews 8–10",
+  "words": 1849,
+  "handbook": []
+ },
+ {
+  "day": 358,
+  "period": "The last letters and Revelation",
+  "reading": "Hebrews 11–13",
+  "words": 2119,
+  "handbook": []
+ },
+ {
+  "day": 359,
+  "period": "The last letters and Revelation",
+  "reading": "Jude; 1 John 1–3",
+  "words": 2125,
+  "handbook": [
+   {
+    "book": "Jude",
+    "page": null
+   },
+   {
+    "book": "1 John",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 360,
+  "period": "The last letters and Revelation",
+  "reading": "1 John 4–5; 2 John; 3 John; Revelation 1",
+  "words": 2184,
+  "handbook": [
+   {
+    "book": "2 John",
+    "page": null
+   },
+   {
+    "book": "3 John",
+    "page": null
+   },
+   {
+    "book": "Revelation",
+    "page": null
+   }
+  ]
+ },
+ {
+  "day": 361,
+  "period": "The last letters and Revelation",
+  "reading": "Revelation 2–5",
+  "words": 2243,
+  "handbook": []
+ },
+ {
+  "day": 362,
+  "period": "The last letters and Revelation",
+  "reading": "Revelation 6–10",
+  "words": 2373,
+  "handbook": []
+ },
+ {
+  "day": 363,
+  "period": "The last letters and Revelation",
+  "reading": "Revelation 11–14",
+  "words": 2266,
+  "handbook": []
+ },
+ {
+  "day": 364,
+  "period": "The last letters and Revelation",
+  "reading": "Revelation 15–18",
+  "words": 2088,
+  "handbook": []
+ },
+ {
+  "day": 365,
+  "period": "The last letters and Revelation",
+  "reading": "Revelation 19–22",
+  "words": 2433,
+  "handbook": []
+ }
+]

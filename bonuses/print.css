@@ -1,0 +1,73 @@
+/* Shared print styles for the Bookline bonus PDFs (A4) */
+@font-face { font-family: "Lora"; src: url("fonts/Lora[wght].ttf") format("truetype"); font-weight: 400 700; font-style: normal; }
+@font-face { font-family: "Lora"; src: url("fonts/Lora-Italic[wght].ttf") format("truetype"); font-weight: 400 700; font-style: italic; }
+@font-face { font-family: "Poppins"; src: url("fonts/Poppins-Regular.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Poppins"; src: url("fonts/Poppins-Medium.ttf") format("truetype"); font-weight: 500; }
+@font-face { font-family: "Poppins"; src: url("fonts/Poppins-SemiBold.ttf") format("truetype"); font-weight: 600; }
+
+:root {
+  --burgundy: #4A1519;
+  --burgundy-soft: #6B2A2F;
+  --gold: #C9A24E;
+  --gold-dark: #8A6A1F;
+  --cream: #F7F1E4;
+  --ink: #241612;
+  --ink-soft: #5A4740;
+  --line: #E2D3B0;
+}
+
+@page { size: A4; margin: 18mm 16mm 18mm 16mm; }
+
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+h1, h2, h3, h4 { font-family: "Lora", serif; color: var(--burgundy); font-weight: 600; margin: 0 0 .4em; line-height: 1.2; }
+h1 { font-size: 24pt; letter-spacing: .02em; }
+h2 { font-size: 16pt; }
+h3 { font-size: 12pt; }
+p { margin: 0 0 .7em; }
+
+.page { break-after: page; }
+.page:last-child { break-after: auto; }
+
+.kicker {
+  font-family: "Poppins", sans-serif;
+  font-size: 8pt;
+  font-weight: 600;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold-dark);
+  margin-bottom: 4pt;
+}
+
+.rule {
+  display: flex;
+  align-items: center;
+  gap: 8pt;
+  margin: 8pt 0 14pt;
+}
+.rule::before, .rule::after { content: ""; height: .6pt; background: var(--gold); flex: 1; }
+.rule span { width: 6pt; height: 6pt; background: var(--gold); transform: rotate(45deg); }
+
+.box-note {
+  border: .8pt solid var(--gold);
+  background: var(--cream);
+  border-radius: 3pt;
+  padding: 9pt 12pt;
+  margin: 10pt 0;
+}
+.box-note p:last-child { margin-bottom: 0; }
+
+.lead { font-family: "Lora", serif; font-style: italic; font-size: 12pt; color: var(--burgundy-soft); }
+
+ul.clean { margin: 0 0 .7em; padding-left: 14pt; }
+ul.clean li { margin-bottom: 3pt; }
+
+.blank { display: inline-block; min-width: 22pt; border-bottom: .7pt solid var(--ink-soft); color: transparent; }
