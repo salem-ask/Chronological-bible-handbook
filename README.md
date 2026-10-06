@@ -146,6 +146,12 @@ Settings are at the top of the `offerTimer` block in `script.js`:
 
 Without JavaScript, the timers stay hidden.
 
+## 5e. WhatsApp "Christian Library" group
+
+Just above the footer, a cream section invites visitors to join the WhatsApp group "Christian Library" to receive free Christian books. The button opens the group in a new tab.
+
+To change the group link or the texts, edit the `#community` section near the end of `index.html`. In the `href`, write `&` as `&amp;`. The section styles are under "WhatsApp Christian Library group" in `styles.css`.
+
 ## 6. Meta Pixel
 
 In both `index.html` and `thank-you.html`, find:

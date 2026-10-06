@@ -937,3 +937,18 @@ a:hover { color: var(--burgundy-soft); }
 .offer-timer-dark .offer-timer-label,
 .offer-timer-dark .offer-timer-clock { color: var(--gold); }
 .hero .offer-timer { margin: 16px 0 0; }
+
+/* ---------- WhatsApp Christian Library group ---------- */
+.community h2 { letter-spacing: .04em; }
+.community p { font-size: 1.125rem; color: var(--ink); }
+.community .btn { width: 100%; max-width: 420px; margin-top: 8px; }
+.community-rule {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 220px;
+  margin: 4px auto 18px;
+}
+.community-rule::before,
+.community-rule::after { content: ""; flex: 1; height: 1px; background: var(--gold); }
+.community-rule span { width: 8px; height: 8px; background: var(--gold); transform: rotate(45deg); }
